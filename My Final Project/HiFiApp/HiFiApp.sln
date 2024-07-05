@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiFiApp.Api", "HiFiApp.Api\HiFiApp.Api.csproj", "{365121CB-0948-4525-BAC1-2C5E058C6E4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiFiApp.Data", "HiFiApp.Data\HiFiApp.Data.csproj", "{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiFiApp.Entity", "HiFiApp.Entity\HiFiApp.Entity.csproj", "{96136973-10DF-46C9-AC75-B68A913C51C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiFiApp.Service", "HiFiApp.Service\HiFiApp.Service.csproj", "{7AE5D591-24D6-45E1-A261-CEA8A6053025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{365121CB-0948-4525-BAC1-2C5E058C6E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365121CB-0948-4525-BAC1-2C5E058C6E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365121CB-0948-4525-BAC1-2C5E058C6E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365121CB-0948-4525-BAC1-2C5E058C6E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96136973-10DF-46C9-AC75-B68A913C51C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96136973-10DF-46C9-AC75-B68A913C51C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96136973-10DF-46C9-AC75-B68A913C51C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96136973-10DF-46C9-AC75-B68A913C51C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE5D591-24D6-45E1-A261-CEA8A6053025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE5D591-24D6-45E1-A261-CEA8A6053025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE5D591-24D6-45E1-A261-CEA8A6053025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE5D591-24D6-45E1-A261-CEA8A6053025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A2429A7-4600-4583-8D0D-6593B332EB55}
+	EndGlobalSection
+EndGlobal
