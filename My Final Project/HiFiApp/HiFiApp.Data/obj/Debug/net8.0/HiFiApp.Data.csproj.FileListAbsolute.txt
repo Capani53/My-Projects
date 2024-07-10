@@ -28,3 +28,4 @@ C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\H
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\refint\HiFiApp.Data.dll
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.pdb
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\ref\HiFiApp.Data.dll
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.sourcelink.json

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HiFiApp.Data\HiFiApp.Data.csproj" />
+    <ProjectReference Include="..\HiFiApp.Shared\HiFiApp.Shared.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

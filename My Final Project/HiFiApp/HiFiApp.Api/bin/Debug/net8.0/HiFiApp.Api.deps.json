@@ -915,10 +915,16 @@
       },
       "HiFiApp.Service/1.0.0": {
         "dependencies": {
-          "HiFiApp.Data": "1.0.0"
+          "HiFiApp.Data": "1.0.0",
+          "HiFiApp.Shared": "1.0.0"
         },
         "runtime": {
           "HiFiApp.Service.dll": {}
+        }
+      },
+      "HiFiApp.Shared/1.0.0": {
+        "runtime": {
+          "HiFiApp.Shared.dll": {}
         }
       }
     }
@@ -1507,6 +1513,11 @@
       "sha512": ""
     },
     "HiFiApp.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HiFiApp.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

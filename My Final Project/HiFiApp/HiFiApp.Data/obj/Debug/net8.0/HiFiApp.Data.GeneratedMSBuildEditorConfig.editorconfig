@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HiFiApp.Data
-build_property.ProjectDir = C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Data\
+build_property.ProjectDir = C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

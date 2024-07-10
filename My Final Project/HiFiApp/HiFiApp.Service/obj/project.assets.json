@@ -1010,6 +1010,16 @@
         "runtime": {
           "bin/placeholder/HiFiApp.Entity.dll": {}
         }
+      },
+      "HiFiApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/HiFiApp.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HiFiApp.Shared.dll": {}
+        }
       }
     }
   },
@@ -2774,11 +2784,17 @@
       "type": "project",
       "path": "../HiFiApp.Entity/HiFiApp.Entity.csproj",
       "msbuildProject": "../HiFiApp.Entity/HiFiApp.Entity.csproj"
+    },
+    "HiFiApp.Shared/1.0.0": {
+      "type": "project",
+      "path": "../HiFiApp.Shared/HiFiApp.Shared.csproj",
+      "msbuildProject": "../HiFiApp.Shared/HiFiApp.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "HiFiApp.Data >= 1.0.0"
+      "HiFiApp.Data >= 1.0.0",
+      "HiFiApp.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2787,11 +2803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
+      "projectUniqueName": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
       "projectName": "HiFiApp.Service",
-      "projectPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
+      "projectPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
       "packagesPath": "C:\\Users\\alica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\2\\HiFiApp\\HiFiApp.Service\\obj\\",
+      "outputPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alica\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2808,8 +2824,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\2\\HiFiApp\\HiFiApp.Data\\HiFiApp.Data.csproj": {
-              "projectPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\2\\HiFiApp\\HiFiApp.Data\\HiFiApp.Data.csproj"
+            "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Data\\HiFiApp.Data.csproj": {
+              "projectPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Data\\HiFiApp.Data.csproj"
+            },
+            "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj"
             }
           }
         }

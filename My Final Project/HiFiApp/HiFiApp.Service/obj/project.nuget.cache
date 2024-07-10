@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rfuAb9m3j8iWo5w8DHm38axDNRKeL0tT5xsgnOUXvfDdlHlVbSC+P3g581bj6O5Q3a9O4zBTMWM+hZ3cI8LW4A==",
+  "dgSpecHash": "jc4MhVsc+A1P8TMf1WVY/CsFoPZ5KEjB6ToTlhlZR9auHiABspy7nMSwC6h25Qms2yWgTZi5pfiLMLmLg5aVjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
+  "projectFilePath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alica\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alica\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -32,3 +32,6 @@ C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\H
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Service\obj\Debug\net8.0\refint\HiFiApp.Service.dll
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Service\obj\Debug\net8.0\HiFiApp.Service.pdb
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Service\obj\Debug\net8.0\ref\HiFiApp.Service.dll
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Service\bin\Debug\net8.0\HiFiApp.Shared.dll
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Service\bin\Debug\net8.0\HiFiApp.Shared.pdb
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Service\obj\Debug\net8.0\HiFiApp.Service.sourcelink.json
