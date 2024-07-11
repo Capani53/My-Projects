@@ -8,7 +8,7 @@ namespace HiFiApp.Data.Abstract
 {
     public interface IHiFiRepository:IGenericRepository<HiFi>
     {
-        Task<List<HiFi>> GetHiFisWithCategories();
-        Task<List<HiFi>> GetHiFisByCategoryIdAsync (int categoryId);
+        Task<List<HiFi>> GetHiFisWithCategoriesAsync();
+        Task<List<HiFi>> GetHiFisByCategoryIdAsync(int categoryId);
     }
 }

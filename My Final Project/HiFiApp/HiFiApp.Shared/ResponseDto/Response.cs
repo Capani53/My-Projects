@@ -16,7 +16,7 @@ namespace HiFiApp.Shared.ResponseDto
         public static Response<T> Success(T data, int statusCode){
             return new Response<T>{
                 Data = data,
-                StatusCode = StatusCode,
+                StatusCode = statusCode,
                 IsSucceeded=true
             };
         }

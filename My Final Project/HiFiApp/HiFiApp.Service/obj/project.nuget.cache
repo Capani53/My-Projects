@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jc4MhVsc+A1P8TMf1WVY/CsFoPZ5KEjB6ToTlhlZR9auHiABspy7nMSwC6h25Qms2yWgTZi5pfiLMLmLg5aVjw==",
+  "dgSpecHash": "eDKmuZiYnqjZadv3U8sgcWavqOUOtIiXgyYB63Y7OxIFq/DbtfndRej6KqzoJJ+4av1Ti+0YRgDLRJHBYSKF1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alica\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\alica\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alica\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\alica\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

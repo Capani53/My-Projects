@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HiFiApp.Data.Migrations
 {
     [DbContext(typeof(HiFiAppDbContext))]
-    [Migration("20240621100323_HiFiCategoryEdit")]
-    partial class HiFiCategoryEdit
+    [Migration("20240711115259_InitialDb")]
+    partial class InitialDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -69,9 +69,6 @@ namespace HiFiApp.Data.Migrations
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Features")
-                        .HasColumnType("int");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");

@@ -285,3 +285,4 @@ C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\H
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Api\bin\Debug\net8.0\HiFiApp.Shared.dll
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Api\bin\Debug\net8.0\HiFiApp.Shared.pdb
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Api\obj\Debug\net8.0\HiFiApp.Api.sourcelink.json
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Api\bin\Debug\net8.0\AutoMapper.dll

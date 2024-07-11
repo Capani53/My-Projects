@@ -10,8 +10,8 @@ namespace HiFiApp.Entity.Concrete
     {
         //IBase
         public int id { get ; set ; }
-        public DateTime CreatedDate { get ; set ; }
-        public DateTime ModifiedDate { get ; set ; }
+        public DateTime CreatedDate { get ; set ; }=DateTime.Now;
+        public DateTime ModifiedDate { get; set; } = DateTime.Now;
         public bool IsActive { get ; set ; }
         //ICommon
         public string Name { get ; set ; }
@@ -21,6 +21,7 @@ namespace HiFiApp.Entity.Concrete
 
         public int Stock { get; set; }
         public  decimal Price { get; set; }
+        //Navigation Properties
         public List<HiFiCategory> HiFiCategories { get; set; }
     }
 }

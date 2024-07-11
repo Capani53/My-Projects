@@ -1,6 +1,8 @@
 using HiFiApp.Data;
 using HiFiApp.Data.Abstract;
 using HiFiApp.Data.Concrete.EfCore.Repositories;
+using HiFiApp.Service.Abstract;
+using HiFiApp.Service.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<HiFiAppDbContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnection")));
+
 builder.Services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
+builder.Services.AddScoped<IHiFiRepository, EfCoreHiFiRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IHiFiService, HiFiService>();
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
 builder.Services.AddEndpointsApiExplorer();
