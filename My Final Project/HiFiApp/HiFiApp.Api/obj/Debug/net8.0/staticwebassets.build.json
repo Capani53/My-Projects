@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "Ekzanesrdn/OZGWfizSOQ2RpxHX8NktgfwZ8IusSqFk=",
+  "Hash": "ZguvxocQa3dF7YQfVbeix7dHqgV2+OUeJ8tIsMDQB7Q=",
   "Source": "HiFiApp.Api",
   "BasePath": "_content/HiFiApp.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HiFiApp.Api\\wwwroot",
+      "Source": "HiFiApp.Api",
+      "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
+      "BasePath": "_content/HiFiApp.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

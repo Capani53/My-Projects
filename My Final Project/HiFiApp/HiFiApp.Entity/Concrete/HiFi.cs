@@ -21,6 +21,7 @@ namespace HiFiApp.Entity.Concrete
 
         public int Stock { get; set; }
         public  decimal Price { get; set; }
+        public string ImageUrl { get; set; }
         //Navigation Properties
         public List<HiFiCategory> HiFiCategories { get; set; }
     }

@@ -24,7 +24,14 @@ namespace HiFiApp.Data.Concrete.EfCore.Repositories
 
         }
 
-        public async Task<HiFi> CreateHiFiWithCategories(HiFi hiFi, List<int> categoryIds)
+        public async Task ClearHiFiCategoriesAsync(int hiFiId)
+        {
+            List<HiFiCategory> hiFiCategories= await Context.HiFiCategories.Where(hc=>hc.HiFiId==hiFiId).ToListAsync();
+            Context.HiFiCategories.RemoveRange(hiFiCategories);
+            await Context.SaveChangesAsync();
+        }
+
+        public async Task<HiFi> CreateHiFiWithCategoriesAsync(HiFi hiFi, List<int> categoryIds)
         {
             var createdHiFi = await Context.HiFis.AddAsync(hiFi);
             if (createdHiFi !=null)
@@ -34,8 +41,14 @@ namespace HiFiApp.Data.Concrete.EfCore.Repositories
                 await Context.HiFiCategories.AddRangeAsync(hiFiCategories);
                 await Context.SaveChangesAsync();
             }
-            var result = await GetHiFiWithCategories(hiFi.Id);
+            var result = await GetHiFiWithCategoriesAsync(hiFi.Id);
             return result;
+        }
+
+        public async Task<List<HiFi>> GetActiveHiFisAsync(bool isActive)
+        {
+            List<HiFi> hiFis= await Context.HiFis.Where(h=>h.IsActive).Include(h=>h.HiFiCategories).ThenInclude(hc=>hc.Category).ToListAsync();
+            return hiFis;
         }
 
         public async Task<List<HiFi>> GetHiFisByCategoryIdAsync(int categoryId)
@@ -50,10 +63,15 @@ namespace HiFiApp.Data.Concrete.EfCore.Repositories
             return hiFis;
         }
 
-        public async Task<HiFi> GetHiFiWithCategories(int id)
+        public async Task<HiFi> GetHiFiWithCategoriesAsync(int id)
         {
             HiFi hiFi = await Context.HiFis.Where(x=>x.Id==id).Include(x => x.HiFiCategories).ThenInclude(y => y.Category).FirstOrDefaultAsync();
             return hiFi;
         }
+
+        //public Task<HiFi> UpdateHiFiWithCategoriesAsync(HiFi hiFi, List<int> categoryIds)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

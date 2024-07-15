@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HiFiApp.Data.Migrations
 {
     [DbContext(typeof(HiFiAppDbContext))]
-    [Migration("20240714113941_InitialDb")]
+    [Migration("20240715191241_InitialDb")]
     partial class InitialDb
     {
         /// <inheritdoc />
@@ -22,7 +22,7 @@ namespace HiFiApp.Data.Migrations
 
             modelBuilder.Entity("HiFiApp.Entity.Concrete.Category", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -43,14 +43,14 @@ namespace HiFiApp.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("HiFiApp.Entity.Concrete.HiFi", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -58,6 +58,10 @@ namespace HiFiApp.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -81,7 +85,7 @@ namespace HiFiApp.Data.Migrations
                     b.Property<int>("Stock")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("HiFis");
                 });

@@ -28,7 +28,7 @@ namespace HiFiApp.Service.Concrete
         public async Task<Response<HiFiDto>> AddAsync(AddHiFiDto addHiFiDto)
         {
             var hiFi = _mapper.Map<HiFi>(addHiFiDto);
-            var createdHiFi = await _hiFiRepository.CreateHiFiWithCategories(hiFi, addHiFiDto.CategoryIds);
+            var createdHiFi = await _hiFiRepository.CreateHiFiWithCategoriesAsync(hiFi, addHiFiDto.CategoryIds);
             if (createdHiFi == null)
             {
                 return Response<HiFiDto>.Fail("Bir sorun oluştu", 404);
@@ -48,6 +48,17 @@ namespace HiFiApp.Service.Concrete
             return Response<NoContent>.Success(200);
         }
 
+        public async Task<Response<List<HiFiDto>>> GetActiveHiFisAsync(bool isActive = true)
+        {
+            List<HiFi> hiFis = await _hiFiRepository.GetActiveHiFisAsync(isActive);
+            if(hiFis.Count == 0)
+            {
+                return Response<List<HiFiDto>>.Fail("İstediğiniz kriterde hifi bulunamadı", 404);
+            }
+            var hiFiDtos = _mapper.Map<List<HiFiDto>>(hiFis);
+            return Response<List<HiFiDto>>.Success(hiFiDtos, 200);
+        }
+
         public async Task<Response<List<HiFiDto>>> GetAllAsync()
         {
             var hiFis = await _hiFiRepository.GetAllAsync();
@@ -61,7 +72,7 @@ namespace HiFiApp.Service.Concrete
 
         public async Task<Response<HiFiDto>> GetByIdAsync(int id)
         {
-            var hiFi = await _hiFiRepository.GetHiFiWithCategories(id);
+            var hiFi = await _hiFiRepository.GetHiFiWithCategoriesAsync(id);
             if(hiFi == null)
             {
                 return Response<HiFiDto>.Fail("Böyle bir hifi bulunamadı", 404);
@@ -100,7 +111,11 @@ namespace HiFiApp.Service.Concrete
             }
             hiFi.ModifiedDate= DateTime.Now;
             var updatedHiFi = await _hiFiRepository.UpdateAsync(hiFi);
-            var hiFiDto = _mapper.Map<HiFiDto>(updatedHiFi);
+            await _hiFiRepository.ClearHiFiCategoriesAsync(updatedHiFi.Id);
+            updatedHiFi.HiFiCategories=editHiFiDto.CategoryIds.Select(categoryId=>new HiFiCategory{HiFiId=updatedHiFi.Id,CategoryId=categoryId}).ToList();
+            await _hiFiRepository.UpdateAsync(updatedHiFi);
+            var result = await _hiFiRepository.GetHiFiWithCategoriesAsync(updatedHiFi.Id);
+            var hiFiDto = _mapper.Map<HiFiDto>(result);
             return Response<HiFiDto>.Success(hiFiDto, 200);
         }
     }

@@ -70,7 +70,26 @@ namespace HiFiApp.Api.Controllers
                 return NotFound(response);
             }
             return Ok(response);
-
+        }
+        [HttpGet("bycategory/{categoryId}")]
+        public async Task<IActionResult> GetByCategoryId(int categoryId)
+        {
+            var response = await _hiFiService.GetHiFisByCategoryIdAsync(categoryId);
+            if (!response.IsSucceeded)
+            {
+                return NotFound(response);
+            }
+            return Ok(response);
+        }
+        [HttpGet("active/{isActive}")]
+        public async Task<IActionResult> GetActiveHiFis(bool isActive)
+        {
+            var response = await _hiFiService.GetActiveHiFisAsync(isActive);
+            if (!response.IsSucceeded)
+            {
+                return NotFound(response);
+            }
+            return Ok(response);
         }
     }
 }

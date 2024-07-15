@@ -1820,7 +1820,10 @@
         },
         "runtime": {
           "bin/placeholder/HiFiApp.Shared.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
