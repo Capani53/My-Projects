@@ -13,5 +13,6 @@ namespace HiFiApp.Shared.Dtos
         public string Summary { get; set; }
         public int Stock { get; set; }
         public decimal Price { get; set; }
+        public List<int> CategoryIds { get; set; }
     }
 }

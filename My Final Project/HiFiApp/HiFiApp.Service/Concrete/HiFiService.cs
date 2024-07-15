@@ -27,12 +27,12 @@ namespace HiFiApp.Service.Concrete
 
         public async Task<Response<HiFiDto>> AddAsync(AddHiFiDto addHiFiDto)
         {
-            var HiFi = _mapper.Map<HiFi>(addHiFiDto);
-            var createdHiFi = await _hiFiRepository.CreateAsync(HiFi);
+            var hiFi = _mapper.Map<HiFi>(addHiFiDto);
+            var createdHiFi = await _hiFiRepository.CreateHiFiWithCategories(hiFi, addHiFiDto.CategoryIds);
             if (createdHiFi == null)
             {
                 return Response<HiFiDto>.Fail("Bir sorun oluştu", 404);
-            }
+            }            
             var hiFiDto = _mapper.Map<HiFiDto>(createdHiFi);
             return Response<HiFiDto>.Success(hiFiDto, 201);
         }
@@ -61,7 +61,7 @@ namespace HiFiApp.Service.Concrete
 
         public async Task<Response<HiFiDto>> GetByIdAsync(int id)
         {
-            var hiFi = await _hiFiRepository.GetByIdAsync(id);
+            var hiFi = await _hiFiRepository.GetHiFiWithCategories(id);
             if(hiFi == null)
             {
                 return Response<HiFiDto>.Fail("Böyle bir hifi bulunamadı", 404);
@@ -99,8 +99,8 @@ namespace HiFiApp.Service.Concrete
                 return Response<HiFiDto>.Fail("Bir hata oluştu", 400);
             }
             hiFi.ModifiedDate= DateTime.Now;
-            var updateHiFi = await _hiFiRepository.UpdateAsync(hiFi);
-            var hiFiDto = _mapper.Map<HiFiDto>(updateHiFi);
+            var updatedHiFi = await _hiFiRepository.UpdateAsync(hiFi);
+            var hiFiDto = _mapper.Map<HiFiDto>(updatedHiFi);
             return Response<HiFiDto>.Success(hiFiDto, 200);
         }
     }

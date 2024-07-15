@@ -8,7 +8,7 @@ namespace HiFiApp.Entity.Concrete
 {
     public class Category : IBaseEntity, ICommonEntity
     {
-        public int id { get ; set ; }
+        public int Id { get ; set ; }
         public DateTime CreatedDate { get ; set ; }=DateTime.Now;
         public DateTime ModifiedDate { get ; set ; }=DateTime.Now;
         public bool IsActive { get ; set ; }

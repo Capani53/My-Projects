@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}|HiFiApp.Data\\HiFiApp.Data.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiapp\\hifiapp.data\\concrete\\efcore\\repositories\\efcorehifirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}|HiFiApp.Data\\HiFiApp.Data.csproj|solutionrelative:hifiapp.data\\concrete\\efcore\\repositories\\efcorehifirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5D591-24D6-45E1-A261-CEA8A6053025}|HiFiApp.Service\\HiFiApp.Service.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiapp\\hifiapp.service\\concrete\\hifiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5D591-24D6-45E1-A261-CEA8A6053025}|HiFiApp.Service\\HiFiApp.Service.csproj|solutionrelative:hifiapp.service\\concrete\\hifiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}|HiFiApp.Data\\HiFiApp.Data.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiapp\\hifiapp.data\\abstract\\ihifirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEBE6EC-DF2C-40DC-9CDD-B8B658735A53}|HiFiApp.Data\\HiFiApp.Data.csproj|solutionrelative:hifiapp.data\\abstract\\ihifirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5D591-24D6-45E1-A261-CEA8A6053025}|HiFiApp.Service\\HiFiApp.Service.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiapp\\hifiapp.service\\mapping\\generalmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5D591-24D6-45E1-A261-CEA8A6053025}|HiFiApp.Service\\HiFiApp.Service.csproj|solutionrelative:hifiapp.service\\mapping\\generalmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeneralMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\Mapping\\GeneralMappingProfile.cs",
+              "RelativeDocumentMoniker": "HiFiApp.Service\\Mapping\\GeneralMappingProfile.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\Mapping\\GeneralMappingProfile.cs",
+              "RelativeToolTip": "HiFiApp.Service\\Mapping\\GeneralMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:27:26.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EfCoreHiFiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Data\\Concrete\\EfCore\\Repositories\\EfCoreHiFiRepository.cs",
+              "RelativeDocumentMoniker": "HiFiApp.Data\\Concrete\\EfCore\\Repositories\\EfCoreHiFiRepository.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Data\\Concrete\\EfCore\\Repositories\\EfCoreHiFiRepository.cs",
+              "RelativeToolTip": "HiFiApp.Data\\Concrete\\EfCore\\Repositories\\EfCoreHiFiRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:22:25.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HiFiService.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\Concrete\\HiFiService.cs",
+              "RelativeDocumentMoniker": "HiFiApp.Service\\Concrete\\HiFiService.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\Concrete\\HiFiService.cs",
+              "RelativeToolTip": "HiFiApp.Service\\Concrete\\HiFiService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwGcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:20:50.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IHiFiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Data\\Abstract\\IHiFiRepository.cs",
+              "RelativeDocumentMoniker": "HiFiApp.Data\\Abstract\\IHiFiRepository.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Data\\Abstract\\IHiFiRepository.cs",
+              "RelativeToolTip": "HiFiApp.Data\\Abstract\\IHiFiRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:18:45.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
