@@ -3,6 +3,8 @@ using HiFiApp.Data.Abstract;
 using HiFiApp.Data.Concrete.EfCore.Repositories;
 using HiFiApp.Service.Abstract;
 using HiFiApp.Service.Concrete;
+using HiFiApp.Shared.Helpers.Abstract;
+using HiFiApp.Shared.Helpers.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,8 @@ builder.Services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
 builder.Services.AddScoped<IHiFiRepository, EfCoreHiFiRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IHiFiService, HiFiService>();
+
+builder.Services.AddScoped<IImageHelper, ImageHelper>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

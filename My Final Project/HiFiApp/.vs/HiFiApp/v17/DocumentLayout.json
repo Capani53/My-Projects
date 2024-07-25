@@ -1,12 +1,69 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{365121CB-0948-4525-BAC1-2C5E058C6E4A}|HiFiApp.Api\\HiFiApp.Api.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiapp\\hifiapp.api\\controllers\\hifiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365121CB-0948-4525-BAC1-2C5E058C6E4A}|HiFiApp.Api\\HiFiApp.Api.csproj|solutionrelative:hifiapp.api\\controllers\\hifiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB64E4A-5717-4FBC-B6A0-84CA65BC9DB2}|HiFiApp.Shared\\HiFiApp.Shared.csproj|C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\hifiapp.shared\\helpers\\abstract\\iimagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB64E4A-5717-4FBC-B6A0-84CA65BC9DB2}|HiFiApp.Shared\\HiFiApp.Shared.csproj|solutionrelative:hifiapp.shared\\helpers\\abstract\\iimagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365121CB-0948-4525-BAC1-2C5E058C6E4A}|HiFiApp.Api\\HiFiApp.Api.csproj|C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\hifiapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365121CB-0948-4525-BAC1-2C5E058C6E4A}|HiFiApp.Api\\HiFiApp.Api.csproj|solutionrelative:hifiapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "HiFiApp.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\Program.cs",
+              "RelativeToolTip": "HiFiApp.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:34:32.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IImageHelper.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Shared\\Helpers\\Abstract\\IImageHelper.cs",
+              "RelativeDocumentMoniker": "HiFiApp.Shared\\Helpers\\Abstract\\IImageHelper.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Shared\\Helpers\\Abstract\\IImageHelper.cs",
+              "RelativeToolTip": "HiFiApp.Shared\\Helpers\\Abstract\\IImageHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:34:10.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HiFisController.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\Controllers\\HiFisController.cs",
+              "RelativeDocumentMoniker": "HiFiApp.Api\\Controllers\\HiFisController.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\Controllers\\HiFisController.cs",
+              "RelativeToolTip": "HiFiApp.Api\\Controllers\\HiFisController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:32:40.67Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

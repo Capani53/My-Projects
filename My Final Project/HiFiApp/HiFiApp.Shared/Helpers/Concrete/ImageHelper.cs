@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace HiFiApp.Shared.Helpers.Concrete
 {
-    public class ImageHelper : IUploadHelper
+    public class ImageHelper : IImageHelper
     {
         private string _imagesFolder = "wwwroot";
         private readonly string[] permittedExtensions = { ".png", ".jpg", ".jpeg" };
@@ -35,6 +35,21 @@ namespace HiFiApp.Shared.Helpers.Concrete
             {
                 return Response<string>.Fail("Lütfen resim dosyası içeriğini kontrol ediniz.", 401);
             }
+
+            if(!Directory.Exists(_imagesFolder))
+            {
+                Directory.CreateDirectory(_imagesFolder);
+            }
+            var fileName = $"{Guid.NewGuid()}{extension}";
+            //var fileName = Path.Combine(Guid.NewGuid().ToString(), extension);
+            var fullPath= Path.Combine(_imagesFolder, fileName);
+            await using (var stream = new FileStream(fullPath, FileMode.Create))
+            {
+                 await file.CopyToAsync(stream);
+            };
+
+
+            return Response<string>.Success($"/images/{fileName}", 201);
         }
     }
 }

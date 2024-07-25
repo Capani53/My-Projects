@@ -1,6 +1,7 @@
 ﻿using HiFiApp.Service.Abstract;
 using HiFiApp.Service.Concrete;
 using HiFiApp.Shared.Dtos;
+using HiFiApp.Shared.Helpers.Abstract;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,10 +12,12 @@ namespace HiFiApp.Api.Controllers
     public class HiFisController : ControllerBase
     {
         private readonly IHiFiService _hiFiService;
+        private readonly IImageHelper _imageHelper;
 
-        public HiFisController(IHiFiService hiFiService)
+        public HiFisController(IHiFiService hiFiService, IImageHelper imageHelper)
         {
             _hiFiService = hiFiService;
+            _imageHelper = imageHelper;
         }
 
         [HttpPost]
@@ -85,6 +88,17 @@ namespace HiFiApp.Api.Controllers
         public async Task<IActionResult> GetActiveHiFis(bool isActive)
         {
             var response = await _hiFiService.GetActiveHiFisAsync(isActive);
+            if (!response.IsSucceeded)
+            {
+                return NotFound(response);
+            }
+            return Ok(response);
+        }
+
+        [HttpPost("addimage")]
+        public async Task<IActionResult> ImageUpload(IFormFile file)
+        {
+            var response = await _imageHelper.Upload(file);
             if (!response.IsSucceeded)
             {
                 return NotFound(response);
