@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
@@ -13,24 +14,31 @@ namespace HiFiAppClient.Models
         public int Id { get; set; }
 
         [JsonPropertyName("name")]
+        [DisplayName ("HiFi Adý")]
         public string Name { get; set; }
 
         [JsonPropertyName("properties")]
+        [DisplayName("Özellikler")]
         public string Properties { get; set; }
-
-        [JsonPropertyName("summary")]
-        public object Summary { get; set; }
+       
+        [JsonPropertyName("description")]
+        [DisplayName("Açýklama")]
+        public string Description { get; set; }
 
         [JsonPropertyName("stock")]
+        [DisplayName("Stok")]
         public int Stock { get; set; }
-
+        
         [JsonPropertyName("price")]
-        public double Price { get; set; }
-
+        [DisplayName("Fiyat")]
+        public decimal Price { get; set; }
+       
         [JsonPropertyName("imageUrl")]
-        public object ImageUrl { get; set; }
+        [DisplayName("Resim")]
+        public string ImageUrl { get; set; }
 
         [JsonPropertyName("categories")]
+        [DisplayName("Kategoriler")]
         public List<CategoryViewModel> Categories { get; set; }
     }
 }

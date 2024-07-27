@@ -1,0 +1,38 @@
+﻿@model HiFiViewModel
+
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
+
+<h1 class="display-6 text-primary"><span class="text-danger">@Model.Name</span> adlı hifi bilgileri güncelleniyor</h1>
+<hr />
+<form
+    asp-controller="HiFi"
+    asp-action="Update"
+    method="post"
+    class="row g-3">
+    <div class="col-md-8">
+        <label asp-for="Name" class="form-label"></label>
+        <input class="form-control" asp-for="Name">
+    </div>
+    <div class="col-md-1">
+        <label asp-for="Price" class="form-label"></label>
+        <input class="form-control" asp-for="Price">
+    </div>
+    <div class="col-md-1">
+        <label asp-for="Stock" class="form-label"></label>
+        <input class="form-control" asp-for="Stock">
+    </div>
+    <div class="col-md-3">
+        <label asp-for="Properties" class="form-label"></label>
+        <textarea class="form-control" asp-for="Properties"></textarea>
+    </div>
+    <div class="col-md-7">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea class="form-control" asp-for="Description"></textarea>
+
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Değişiklikleri Kaydet</button>
+    </div>
+</form>

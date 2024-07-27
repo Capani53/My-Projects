@@ -1,0 +1,23 @@
+﻿@model CategoryViewModel
+
+<h1 class="display-6">Kategori Silme Sayfası</h1>
+<hr/>
+@if (Model!=null)
+{
+    <div>
+        <label class="text-danger">Silinecek Kategori Adı: </label>
+        <span class="text-primary">@Model.Name</span>
+    </div>
+    <p>Yukarıda bilgileri yer alan kategori silinecektir. Emin misiniz?</p>
+
+    <div>
+        <button class="btn btn-danger">Evet</button>
+        <button class="btn btn-primary">Hayır</button>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        <p>Silmeye çalıştığınız kategori bulunamamıştır.</p>
+    </div>
+}

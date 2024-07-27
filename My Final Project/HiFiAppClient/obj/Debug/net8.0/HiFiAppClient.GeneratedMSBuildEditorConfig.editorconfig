@@ -26,12 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiAppClient
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/HiFi/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlGaVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/HiFi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlGaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/HiFi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlGaVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Home/Index.cshtml]

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using HiFiAppClient.Models;
+using HiFiAppClient.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -13,41 +14,18 @@ namespace HiFiAppClient.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            List<HiFiViewModel>hiFis = DataRepository.GetHiFis();
+            return View(hiFis);
         }
-        public IActionResult OldDetails(int id)
+        public IActionResult Update(int id)
         {
-            ViewBag.HiFiId=id;
-            var hiFi = new{
-                Id=id,
-                HiFiName="Samsung",
-                Properties="Soundbar",
-                IsActive=true,
-            };
-            ViewBag.HiFiObject= hiFi;
-            return View();
+            HiFiViewModel updatedHiFi = DataRepository.GetHiFi(id);
+            return View(updatedHiFi);
         }
-        public IActionResult Details(int id)
+        [HttpPost]
+        public IActionResult Update(HiFiViewModel hiFiViewModel)
         {
-            var hiFi = new HiFiViewModel{
-                Id=id,
-                Name="Samsung",
-                Properties="Home Teathre",
-                ImageUrl="Samsung.png",
-                Price=245,
-                Stock=58,
-                Categories=[
-                new CategoryViewModel{
-                    Id=1,
-                    Name="Home Teathre"
-                    },
-                    new CategoryViewModel{
-                    Id=2,
-                    Name="Soundbar"
-                    }
-                    ]
-            };
-            return View(hiFi);
+            return View();
         }
     }
 }
