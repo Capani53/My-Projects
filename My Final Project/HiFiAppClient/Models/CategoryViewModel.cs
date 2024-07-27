@@ -13,5 +13,8 @@ namespace HiFiAppClient.Models
 
         [JsonPropertyName("name")]
         public string Name { get; set; }
+
+        public int CountOfHiFis {  get; set; }
+        public string Description { get; set; }
     }
 }

@@ -1,52 +1,55 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - HiFiAppClient</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/HiFiAppClient.styles.css" asp-append-version="true" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HiFi World</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Ana Sayfa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Kategoriler</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="HiFi" asp-action="Index">HiFilar</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+<html lang="zxx">
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - HiFiAppClient - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ashion Template">
+    <meta name="keywords" content="Ashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ashion | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="~/ui/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="~/ui/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="~/ui/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="~/ui/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="~/ui/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="~/ui/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="~/ui/css/style.css" type="text/css">
+</head>
+
+<body>
+    @await Html.PartialAsync("_PreLoaderPartial")
+
+    @await Html.PartialAsync("_MobileMenuPartial")
+
+    @await Html.PartialAsync("_HeaderPartial")
+
+    @RenderBody()
+
+    @await Html.PartialAsync("_FooterPartial")
+
+    @await Html.PartialAsync("_SearchPartial")
+
+
+<!-- Js Plugins -->
+<script src="~/ui/js/jquery-3.3.1.min.js"></script>
+<script src="~/ui/js/bootstrap.min.js"></script>
+<script src="~/ui/js/jquery.magnific-popup.min.js"></script>
+<script src="~/ui/js/jquery-ui.min.js"></script>
+<script src="~/ui/js/mixitup.min.js"></script>
+<script src="~/ui/js/jquery.countdown.min.js"></script>
+<script src="~/ui/js/jquery.slicknav.js"></script>
+<script src="~/ui/js/owl.carousel.min.js"></script>
+<script src="~/ui/js/jquery.nicescroll.min.js"></script>
+<script src="~/ui/js/main.js"></script>
 </body>
+
 </html>
