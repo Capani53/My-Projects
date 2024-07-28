@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiappclient\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiappclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T11:17:52.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CategoryViewModel.cs",
               "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Models\\CategoryViewModel.cs",
               "RelativeDocumentMoniker": "Models\\CategoryViewModel.cs",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "Models\\CategoryViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T21:04:06.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T21:04:06.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_CategoriesPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Views\\Shared\\_CategoriesPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_CategoriesPartial.cshtml",
@@ -51,12 +67,11 @@
               "RelativeToolTip": "Views\\Shared\\_CategoriesPartial.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T20:30:12.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T20:30:12.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -64,21 +79,19 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T20:25:31.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T20:25:31.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:24:25.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T20:24:25.139Z"
             }
           ]
         }

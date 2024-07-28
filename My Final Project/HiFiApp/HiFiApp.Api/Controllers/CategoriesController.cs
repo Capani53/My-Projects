@@ -46,6 +46,15 @@ public async Task<IActionResult> GetActiveCategories(){
     return Ok(response);
 }
 
+[HttpGet("home")]
+public async Task<IActionResult> GetHomeCategories(){
+    var response = await _categoryService.GetHomeCategoriesAsync();
+    if(!response.IsSucceeded){
+        return NotFound(response);
+    }
+    return Ok(response);
+}
+
 [HttpGet("{id}")]
 public async Task<IActionResult> GetById(int id)
 {

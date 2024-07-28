@@ -19,7 +19,7 @@ namespace HiFiApp.Service.Mapping
             CreateMap<Category, AddCategoryDto>().ReverseMap();
             CreateMap<Category, EditCategoryDto>().ReverseMap();
 
-            CreateMap<HiFi, HiFiDto>().ForMember(hdto => hdto.Categories, options => options.MapFrom(h => h.HiFiCategories.Select(hc => hc.Category.Name))).ReverseMap();
+            CreateMap<HiFi, HiFiDto>().ForMember(hdto => hdto.Categories, options => options.MapFrom(h => h.HiFiCategories.Select(hc => hc.Category))).ReverseMap();
             CreateMap<HiFi, AddHiFiDto>().ReverseMap();
             CreateMap<HiFi, EditHiFiDto>().ReverseMap();
 

@@ -33,6 +33,9 @@ namespace HiFiApp.Data.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("INTEGER");
 
+                    b.Property<bool>("IsHome")
+                        .HasColumnType("INTEGER");
+
                     b.Property<DateTime>("ModifiedDate")
                         .HasColumnType("TEXT");
 

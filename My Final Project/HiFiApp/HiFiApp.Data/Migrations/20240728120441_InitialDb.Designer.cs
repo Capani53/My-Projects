@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HiFiApp.Data.Migrations
 {
     [DbContext(typeof(HiFiAppDbContext))]
-    [Migration("20240715191241_InitialDb")]
+    [Migration("20240728120441_InitialDb")]
     partial class InitialDb
     {
         /// <inheritdoc />
@@ -34,6 +34,9 @@ namespace HiFiApp.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsHome")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("ModifiedDate")

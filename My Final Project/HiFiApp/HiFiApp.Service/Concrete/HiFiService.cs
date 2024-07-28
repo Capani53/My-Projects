@@ -21,13 +21,13 @@ namespace HiFiApp.Service.Concrete
 
         public HiFiService(IHiFiRepository hiFiRepository, IMapper mapper)
         {
-            _hiFiRepository = hiFiRepository;
-            _mapper = mapper;
+            _hiFiRepository=hiFiRepository;
+            _mapper=mapper;
         }
 
         public async Task<Response<HiFiDto>> AddAsync(AddHiFiDto addHiFiDto)
         {
-            var hiFi = _mapper.Map<HiFi>(addHiFiDto);
+            var hiFi = _mapper.Map<HiFi>(addHiFiDto);     
             var createdHiFi = await _hiFiRepository.CreateHiFiWithCategoriesAsync(hiFi, addHiFiDto.CategoryIds);
             if (createdHiFi == null)
             {
@@ -96,7 +96,7 @@ namespace HiFiApp.Service.Concrete
             var hiFis = await _hiFiRepository.GetHiFisWithCategoriesAsync();
             if (hiFis.Count == 0)
             {
-                return Response<List<HiFiDto>>.Fail("Hiç kitap bulunamadı", 404);
+                return Response<List<HiFiDto>>.Fail("Hiç hifi bulunamadı", 404);
             }
             var hiFiDtos = _mapper.Map<List<HiFiDto>>(hiFis);
             return Response<List<HiFiDto>>.Success(hiFiDtos, 200);

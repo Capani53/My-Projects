@@ -1,6 +1,7 @@
 ﻿using HiFiApp.Data.Abstract;
 using HiFiApp.Entity.Concrete;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +50,26 @@ namespace HiFiApp.Data.Concrete.EfCore.Repositories
         {
             List<HiFi> hiFis= await Context.HiFis.Where(h=>h.IsActive).Include(h=>h.HiFiCategories).ThenInclude(hc=>hc.Category).ToListAsync();
             return hiFis;
+        }
+
+        public async Task<int> GetCount(int? categoryId = null)
+        {
+            var count=0;
+            if(categoryId == null){count= await Context.HiFis.CountAsync();
+            }else {
+                var hiFiCategoryList = await Context.HiFiCategories.ToListAsync();
+                foreach(var hc in hiFiCategoryList)
+                if (hc.CategoryId == categoryId)
+                {
+                     count++;
+                }
+            }
+            return count;
+        }
+
+        public Task<int> GetCount(object ıd)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<List<HiFi>> GetHiFisByCategoryIdAsync(int categoryId)

@@ -21,7 +21,8 @@ namespace HiFiApp.Data.Migrations
                     ModifiedDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     IsActive = table.Column<bool>(type: "INTEGER", nullable: false),
                     Name = table.Column<string>(type: "TEXT", nullable: false),
-                    Description = table.Column<string>(type: "TEXT", nullable: false)
+                    Description = table.Column<string>(type: "TEXT", nullable: false),
+                    IsHome = table.Column<bool>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

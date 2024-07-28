@@ -15,12 +15,14 @@ namespace HiFiApp.Service.Concrete
     public class CategoryService : ICategoryService
     {
         private readonly ICategoryRepository _categoryRepository;
+        private readonly IHiFiRepository _hiFiRepository;
         private readonly IMapper _mapper;
 
-        public CategoryService(ICategoryRepository categoryRepository, IMapper mapper)
+        public CategoryService(ICategoryRepository categoryRepository, IMapper mapper, IHiFiRepository hiFiRepository)
         {
             _categoryRepository = categoryRepository;
             _mapper = mapper;
+            _hiFiRepository = hiFiRepository;
         }
 
         public async Task<Response<CategoryDto>> AddAsync(AddCategoryDto addCategoryDto)
@@ -72,6 +74,20 @@ namespace HiFiApp.Service.Concrete
         }
           CategoryDto categoryDto = _mapper.Map<CategoryDto>(category);
                return Response<CategoryDto>.Success(categoryDto, 200);
+        }
+
+        public async Task<Response<List<CategoryDto>>> GetHomeCategoriesAsync()
+        {
+            var categories = await _categoryRepository.GetHomeCategoriesAsync();
+            if(categories.Count==0){
+                return Response<List<CategoryDto>>.Fail("Hiç ana sayfa kategori bulunamadı", 404);
+            }
+            var categoryDtoList=_mapper.Map<List<CategoryDto>>(categories);
+            foreach (var categoryDto in categoryDtoList)
+            {
+                categoryDto.CountOfHiFis=await _hiFiRepository.GetCount(categoryDto.Id);
+            }
+            return Response<List<CategoryDto>>.Success(categoryDtoList,200);
         }
 
         public async Task<Response<CategoryDto>> UpdateAsync(EditCategoryDto editCategoryDto)
