@@ -8,13 +8,16 @@ namespace HiFiAppClient.Models
 {
     public class CategoryViewModel
     {
-        [JsonPropertyName("id")]
+        [JsonPropertyName("Id")]
         public int Id { get; set; }
 
-        [JsonPropertyName("name")]
+        [JsonPropertyName("Name")]
         public string Name { get; set; }
 
-        public int CountOfHiFis {  get; set; }
+        [JsonPropertyName("Description")]
         public string Description { get; set; }
+
+        [JsonPropertyName("CountOfHiFis")]
+        public int CountOfHiFis { get; set; }
     }
 }

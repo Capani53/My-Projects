@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-6.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-7.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-8.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\product-8.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HiFiApp.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HiFiApp.Api.props",
+      "PackagePath": "build\\HiFiApp.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HiFiApp.Api.props",
+      "PackagePath": "buildMultiTargeting\\HiFiApp.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HiFiApp.Api.props",
+      "PackagePath": "buildTransitive\\HiFiApp.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

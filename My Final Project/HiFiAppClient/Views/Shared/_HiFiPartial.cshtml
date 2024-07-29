@@ -1,0 +1,45 @@
+﻿@model List<HiFiViewModel>
+@{
+    var hiFis = Model;
+}
+
+<!-- Product Section Begin -->
+<section class="product spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="section-title">
+                    <h4>HiFi</h4>
+                </div>
+            </div>            
+        </div>
+        <div class="row property__gallery">
+            @foreach (var hiFi in hiFis)
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6 mix men">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="http://localhost:5500/images/hifis/@hiFi.ImageUrl">
+                            <ul class="product__hover">
+                                <li><a href="http://localhost:5500/images/hifis/@hiFi.ImageUrl" class="image-popup"><span class="arrow_expand"></span></a></li>
+                                <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                                <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">@hiFi.Name</a></h6>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="product__price">@($"{hiFi.Price:C2}")</div>
+                        </div>
+                    </div>
+                </div>
+            }            
+        </div>
+    </div>
+</section>
+<!-- Product Section End -->

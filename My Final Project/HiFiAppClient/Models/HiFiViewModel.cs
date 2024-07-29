@@ -9,36 +9,40 @@ namespace HiFiAppClient.Models
 {
     public class HiFiViewModel
     {
-
-        [JsonPropertyName("id")]
+        [JsonPropertyName("Id")]
         public int Id { get; set; }
 
-        [JsonPropertyName("name")]
-        [DisplayName ("HiFi Adý")]
+        [JsonPropertyName("IsHome")]
+        public bool IsHome { get; set; }
+
+        [JsonPropertyName("CreatedDate")]
+        public DateTime CreatedDate { get; set; }
+
+        [JsonPropertyName("ModifiedDate")]
+        public DateTime ModifiedDate { get; set; }
+
+        [JsonPropertyName("IsActive")]
+        public bool IsActive { get; set; }
+
+        [JsonPropertyName("Name")]
         public string Name { get; set; }
 
-        [JsonPropertyName("properties")]
-        [DisplayName("Özellikler")]
+        [JsonPropertyName("Properties")]
         public string Properties { get; set; }
-       
-        [JsonPropertyName("description")]
-        [DisplayName("Açýklama")]
+
+        [JsonPropertyName("Description")]
         public string Description { get; set; }
 
-        [JsonPropertyName("stock")]
-        [DisplayName("Stok")]
+        [JsonPropertyName("Stock")]
         public int Stock { get; set; }
-        
-        [JsonPropertyName("price")]
-        [DisplayName("Fiyat")]
+
+        [JsonPropertyName("Price")]
         public decimal Price { get; set; }
-       
-        [JsonPropertyName("imageUrl")]
-        [DisplayName("Resim")]
+
+        [JsonPropertyName("ImageUrl")]
         public string ImageUrl { get; set; }
 
-        [JsonPropertyName("categories")]
-        [DisplayName("Kategoriler")]
+        [JsonPropertyName("Categories")]
         public List<CategoryViewModel> Categories { get; set; }
     }
 }

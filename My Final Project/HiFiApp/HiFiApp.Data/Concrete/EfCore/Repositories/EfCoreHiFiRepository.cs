@@ -67,11 +67,6 @@ namespace HiFiApp.Data.Concrete.EfCore.Repositories
             return count;
         }
 
-        public Task<int> GetCount(object ıd)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<List<HiFi>> GetHiFisByCategoryIdAsync(int categoryId)
         {
             List<HiFi> hiFis = await Context.HiFis.Include(x=>x.HiFiCategories).ThenInclude(y=>y.Category).Where(x=>x.HiFiCategories.Any(y=>y.CategoryId==categoryId)).ToListAsync();
@@ -90,9 +85,10 @@ namespace HiFiApp.Data.Concrete.EfCore.Repositories
             return hiFi;
         }
 
-        //public Task<HiFi> UpdateHiFiWithCategoriesAsync(HiFi hiFi, List<int> categoryIds)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public async Task<List<HiFi>> GetHomeHiFisAsync()
+        {
+            List<HiFi> hiFis= await Context.HiFis.Where(h=>h.IsActive && h.IsHome).Include(h=>h.HiFiCategories).ThenInclude(hc=>hc.Category).ToListAsync();
+            return hiFis;
+        }
     }
 }

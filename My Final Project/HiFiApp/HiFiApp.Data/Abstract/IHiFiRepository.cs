@@ -16,6 +16,6 @@ namespace HiFiApp.Data.Abstract
         Task ClearHiFiCategoriesAsync(int hiFiId);
         Task<List<HiFi>> GetActiveHiFisAsync(bool isActive);
         Task<int> GetCount (int? categoryId=null);
-        Task<int> GetCount(object ıd);
+        Task<List<HiFi>> GetHomeHiFisAsync();
     }
 }

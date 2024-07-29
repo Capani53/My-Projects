@@ -18,5 +18,6 @@ namespace HiFiApp.Service.Abstract
         Task<Response<HiFiDto>> UpdateAsync(EditHiFiDto editHiFiDto);
         Task<Response<NoContent>> DeleteAsync(int id);
         Task<Response<List<HiFiDto>>> GetActiveHiFisAsync(bool isActive=true);
+        Task<Response<List<HiFiDto>>> GetHomeHiFisAsync();
     }
 }

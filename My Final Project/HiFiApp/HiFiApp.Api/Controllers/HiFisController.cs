@@ -1,4 +1,5 @@
-﻿using HiFiApp.Service.Abstract;
+﻿using System.Text.Json;
+using HiFiApp.Service.Abstract;
 using HiFiApp.Service.Concrete;
 using HiFiApp.Shared.Dtos;
 using HiFiApp.Shared.Helpers.Abstract;
@@ -40,6 +41,16 @@ namespace HiFiApp.Api.Controllers
                 return NotFound(response);
             }
             return Ok(response);
+        }
+        [HttpGet("homehifis")]
+        public async Task<IActionResult> GetHomeHiFis()
+        {
+            var response = await _hiFiService.GetHomeHiFisAsync();
+            if (!response.IsSucceeded)
+            {
+                return NotFound(JsonSerializer.Serialize(response));
+            }
+            return Ok(JsonSerializer.Serialize(response));
         }
 
         [HttpGet("{id}")]
@@ -90,9 +101,9 @@ namespace HiFiApp.Api.Controllers
             var response = await _hiFiService.GetActiveHiFisAsync(isActive);
             if (!response.IsSucceeded)
             {
-                return NotFound(response);
+                return NotFound(JsonSerializer.Serialize(response));
             }
-            return Ok(response);
+            return Ok(JsonSerializer.Serialize(response));
         }
 
         [HttpPost("addimage")]

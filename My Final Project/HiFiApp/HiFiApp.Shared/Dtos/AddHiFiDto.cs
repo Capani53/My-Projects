@@ -8,6 +8,7 @@ namespace HiFiApp.Shared.Dtos
     public class AddHiFiDto
     {
         public bool IsActive { get; set; }
+        public bool IsHome { get; set; }
         public string Name { get; set; }
         public string Properties { get; set; }
         public string Description { get; set; }

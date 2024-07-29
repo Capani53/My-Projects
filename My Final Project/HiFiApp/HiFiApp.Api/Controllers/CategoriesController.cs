@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 using HiFiApp.Service.Abstract;
 using HiFiApp.Shared.Dtos;
@@ -32,9 +33,9 @@ public async Task<IActionResult> Create(AddCategoryDto addCategoryDto){
 public async Task<IActionResult> GetAll(){
     var response = await _categoryService.GetAllAsync();
     if(!response.IsSucceeded){
-        return NotFound(response);
+        return NotFound(JsonSerializer.Serialize(response));
     }
-    return Ok(response);
+    return Ok(JsonSerializer.Serialize(response));
 }
 
 [HttpGet("active")]
@@ -50,9 +51,9 @@ public async Task<IActionResult> GetActiveCategories(){
 public async Task<IActionResult> GetHomeCategories(){
     var response = await _categoryService.GetHomeCategoriesAsync();
     if(!response.IsSucceeded){
-        return NotFound(response);
+        return NotFound(JsonSerializer.Serialize(response));
     }
-    return Ok(response);
+    return Ok(JsonSerializer.Serialize(response));
 }
 
 [HttpGet("{id}")]

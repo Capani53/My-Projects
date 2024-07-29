@@ -5,6 +5,7 @@ using HiFiApp.Entity.Concrete;
 using HiFiApp.Service.Abstract;
 using HiFiApp.Shared.Dtos;
 using HiFiApp.Shared.ResponseDto;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -96,7 +97,18 @@ namespace HiFiApp.Service.Concrete
             var hiFis = await _hiFiRepository.GetHiFisWithCategoriesAsync();
             if (hiFis.Count == 0)
             {
-                return Response<List<HiFiDto>>.Fail("Hiç hifi bulunamadı", 404);
+                return Response<List<HiFiDto>>.Fail("Hiç hifi bulunamadı", StatusCodes.Status404NotFound);
+            }
+            var hiFiDtos = _mapper.Map<List<HiFiDto>>(hiFis);
+            return Response<List<HiFiDto>>.Success(hiFiDtos, StatusCodes.Status200OK);
+        }
+
+        public async Task<Response<List<HiFiDto>>> GetHomeHiFisAsync()
+        {
+            List<HiFi> hiFis = await _hiFiRepository.GetHomeHiFisAsync();
+            if(hiFis.Count == 0)
+            {
+                return Response<List<HiFiDto>>.Fail("İstediğiniz kriterde hifi bulunamadı", 404);
             }
             var hiFiDtos = _mapper.Map<List<HiFiDto>>(hiFis);
             return Response<List<HiFiDto>>.Success(hiFiDtos, 200);

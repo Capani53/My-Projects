@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{365121CB-0948-4525-BAC1-2C5E058C6E4A}|HiFiApp.Api\\HiFiApp.Api.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiapp\\hifiapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365121CB-0948-4525-BAC1-2C5E058C6E4A}|HiFiApp.Api\\HiFiApp.Api.csproj|solutionrelative:hifiapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\Program.cs",
-              "RelativeDocumentMoniker": "HiFiApp.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\Program.cs",
-              "RelativeToolTip": "HiFiApp.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T22:49:29.433Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

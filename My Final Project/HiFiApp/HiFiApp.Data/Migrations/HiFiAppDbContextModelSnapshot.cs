@@ -27,7 +27,6 @@ namespace HiFiApp.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("IsActive")
@@ -40,7 +39,6 @@ namespace HiFiApp.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -58,28 +56,27 @@ namespace HiFiApp.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsHome")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("ModifiedDate")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Properties")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Stock")
