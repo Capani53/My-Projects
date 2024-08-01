@@ -16,6 +16,10 @@ builder.Services.AddDbContext<HiFiAppDbContext>(options=>options.UseSqlite(build
 
 builder.Services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
 builder.Services.AddScoped<IHiFiRepository, EfCoreHiFiRepository>();
+builder.Services.AddScoped<IBrandRepository, EfCoreBrandRepository>();
+builder.Services.AddScoped<IBrandService, BrandService>();
+
+
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IHiFiService, HiFiService>();
 

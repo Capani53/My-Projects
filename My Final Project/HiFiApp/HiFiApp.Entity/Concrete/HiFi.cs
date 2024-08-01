@@ -25,5 +25,7 @@ namespace HiFiApp.Entity.Concrete
         public bool IsHome { get; set; }
         //Navigation Properties
         public List<HiFiCategory> HiFiCategories { get; set; }
+        public int BrandId { get; set; }
+        public Brand Brand { get; set; }
     }
 }

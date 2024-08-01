@@ -22,5 +22,6 @@ namespace HiFiApp.Shared.Dtos
         public  decimal Price { get; set; }
         public string ImageUrl { get; set; }
         public List<CategoryDto> Categories { get; set; }
+        public BrandDto Brand { get; set; }
     }
 }

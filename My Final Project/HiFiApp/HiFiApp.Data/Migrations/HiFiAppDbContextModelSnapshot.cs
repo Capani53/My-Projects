@@ -17,6 +17,32 @@ namespace HiFiApp.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.6");
 
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.Brand", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PhotoUrl")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Brand");
+                });
+
             modelBuilder.Entity("HiFiApp.Entity.Concrete.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -52,6 +78,9 @@ namespace HiFiApp.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("BrandId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("TEXT");
 
@@ -84,6 +113,8 @@ namespace HiFiApp.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BrandId");
+
                     b.ToTable("HiFis");
                 });
 
@@ -100,6 +131,17 @@ namespace HiFiApp.Data.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("HiFiCategories");
+                });
+
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.HiFi", b =>
+                {
+                    b.HasOne("HiFiApp.Entity.Concrete.Brand", "Brand")
+                        .WithMany("HiFis")
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Brand");
                 });
 
             modelBuilder.Entity("HiFiApp.Entity.Concrete.HiFiCategory", b =>
@@ -119,6 +161,11 @@ namespace HiFiApp.Data.Migrations
                     b.Navigation("Category");
 
                     b.Navigation("HiFi");
+                });
+
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.Brand", b =>
+                {
+                    b.Navigation("HiFis");
                 });
 
             modelBuilder.Entity("HiFiApp.Entity.Concrete.Category", b =>
