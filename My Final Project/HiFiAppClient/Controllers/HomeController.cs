@@ -30,7 +30,7 @@ public class HomeController : Controller
         var rootHiFis = new Root<List<HiFiViewModel>>();
         using (var httpClient = new HttpClient())
         {
-            using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/HiFis/hifis"))
+            using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/HiFis/homehifis"))
             {
                 if (!httpResponseMessage.IsSuccessStatusCode)
                 {
