@@ -16,6 +16,6 @@ namespace HiFiApp.Shared.Dtos
       public decimal Price { get; set; }
       public string ImageUrl { get; set; }
       public bool IsHome { get; set; }
-      public List<int> CategoryIds { get; set; } = []; /*new List<int>()*/
+      public List<int> CategoryIds { get; set; } = [];
     }
 }

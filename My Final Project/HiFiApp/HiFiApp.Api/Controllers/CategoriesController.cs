@@ -50,7 +50,7 @@ public async Task<IActionResult> GetActiveCategories(){
 [HttpGet("home")]
 public async Task<IActionResult> GetHomeCategories(){
     var response = await _categoryService.GetHomeCategoriesAsync();
-    if(!response.IsSucceeded){
+    if (!response.IsSucceeded){
         return NotFound(JsonSerializer.Serialize(response));
     }
     return Ok(JsonSerializer.Serialize(response));

@@ -16,7 +16,7 @@ namespace HiFiAppClient.Areas.Admin.Controllers
                 var rootCategories = new Root<List<CategoryModel>>();
                 using (var httpClient = new HttpClient())
                 {
-                    using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/Categories"))
+                    using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/categories"))
                     {
                         if (!httpResponseMessage.IsSuccessStatusCode)
                         {
