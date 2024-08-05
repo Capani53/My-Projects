@@ -105,11 +105,20 @@ namespace HiFiApp.Api.Controllers
             }
             return Ok(JsonSerializer.Serialize(response));
         }
-
+        [HttpGet("getallhiFis")]
+        public async Task<IActionResult> GetAllHiFis()
+        {
+            var response = await _hiFiService.GetHiFisWithCategoriesAsync();
+            if (!response.IsSucceeded)
+            {
+                return NotFound(JsonSerializer.Serialize(response));
+            }
+            return Ok(JsonSerializer.Serialize(response));
+        }
         [HttpPost("addimage")]
         public async Task<IActionResult> ImageUpload(IFormFile file)
         {
-            var response = await _imageHelper.Upload(file);
+            var response = await _imageHelper.Upload(file,"hifis");
             if (!response.IsSucceeded)
             {
                 return NotFound(response);

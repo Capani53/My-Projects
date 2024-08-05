@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HiFiApp.Data.Concrete.EfCore.Configs;
 using HiFiApp.Entity.Concrete;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,7 +20,8 @@ namespace HiFiApp.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<HiFiCategory>().HasKey(hc=>new {hc.HiFiId, hc.CategoryId});
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryConfig).Assembly);
+            
             base.OnModelCreating(modelBuilder);
         }
     }

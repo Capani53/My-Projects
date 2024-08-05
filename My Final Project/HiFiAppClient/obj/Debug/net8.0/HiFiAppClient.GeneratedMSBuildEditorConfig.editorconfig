@@ -30,8 +30,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/HiFi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGlGaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_DataTablesCssPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzQ3NzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_DataTablesJsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzSnNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_FooterPartial.cshtml]

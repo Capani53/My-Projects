@@ -20,7 +20,7 @@ namespace HiFiApp.Shared.Helpers.Concrete
         {
             _imagesFolder = Path.Combine(env.WebRootPath, "images");
         }
-        public async Task<Response<string>> Upload(IFormFile file)
+        public async Task<Response<string>> Upload(IFormFile file, string directoryName)
         {
            if (file == null || file.Length==0)
             {
@@ -35,14 +35,16 @@ namespace HiFiApp.Shared.Helpers.Concrete
             {
                 return Response<string>.Fail("Lütfen resim dosyası içeriğini kontrol ediniz.", 401);
             }
+            _imagesFolder = Path.Combine(_imagesFolder, directoryName);
 
             if(!Directory.Exists(_imagesFolder))
             {
                 Directory.CreateDirectory(_imagesFolder);
             }
             var fileName = $"{Guid.NewGuid()}{extension}";
-            //var fileName = Path.Combine(Guid.NewGuid().ToString(), extension);
+            
             var fullPath= Path.Combine(_imagesFolder, fileName);
+
             await using (var stream = new FileStream(fullPath, FileMode.Create))
             {
                  await file.CopyToAsync(stream);

@@ -21,13 +21,6 @@ namespace HiFiApp.Data.Concrete.EfCore.Repositories
             return categories;
         }
 
-        public async Task<List<Category>> GetCategoriesAsync()
-        {
-            List<Category> categories= await Context.Categories.Where(c=>c.IsHome && c.IsActive).ToListAsync();
-            return categories;
-        }
-
-
         public async Task<List<Category>> GetHomeCategoriesAsync()
         {
             List<Category> categories = await Context.Categories.Where(c=>c.IsHome && c.IsActive).ToListAsync();

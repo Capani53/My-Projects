@@ -1,6 +1,26 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\JBL-logo.png",
+      "PackagePath": "staticwebassets\\images\\Brands\\JBL-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\LG-logo.png",
+      "PackagePath": "staticwebassets\\images\\Brands\\LG-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\Samsung-logo.png",
+      "PackagePath": "staticwebassets\\images\\Brands\\Samsung-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\jbl.png",
+      "PackagePath": "staticwebassets\\images\\HiFis\\jbl.png"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\lg.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\lg.jpg"
+    },
+    {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-1.jpg",
       "PackagePath": "staticwebassets\\images\\HiFis\\product-1.jpg"
     },
@@ -31,6 +51,10 @@
     {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-8.jpg",
       "PackagePath": "staticwebassets\\images\\HiFis\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\samsung.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\samsung.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HiFiApp.Api.Microsoft.AspNetCore.StaticWebAssets.props",

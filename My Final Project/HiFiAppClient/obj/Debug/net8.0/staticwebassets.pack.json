@@ -8373,6 +8373,42 @@
       "PackagePath": "staticwebassets\\ui\\img\\blog\\sidebar\\fp-3.jpg"
     },
     {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\Headphone-category1.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\Headphone-category1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\Headphone-category2.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\Headphone-category2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\Headphone-category3.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\Headphone-category3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\Headphone-category4.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\Headphone-category4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\HomeTheathre-category1.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\HomeTheathre-category1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\HomeTheathre-category2.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\HomeTheathre-category2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\HomeTheathre-category3.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\HomeTheathre-category3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\HomeTheathre-category4.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\HomeTheathre-category4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\HomeTheathre-category5.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\HomeTheathre-category5.jpg"
+    },
+    {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\category-1.jpg",
       "PackagePath": "staticwebassets\\ui\\img\\categories\\category-1.jpg"
     },
@@ -8391,6 +8427,18 @@
     {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\category-5.jpg",
       "PackagePath": "staticwebassets\\ui\\img\\categories\\category-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\category-background.png",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\category-background.png"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\categories\\soundbar-category.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\categories\\soundbar-category.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\category-1.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\category-1.jpg"
     },
     {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\discount.jpg",
@@ -8421,8 +8469,8 @@
       "PackagePath": "staticwebassets\\ui\\img\\instagram\\insta-6.jpg"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\logo.png",
-      "PackagePath": "staticwebassets\\ui\\img\\logo.png"
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\ui\\img\\logo.jpg"
     },
     {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\img\\payment\\payment-1.png",
