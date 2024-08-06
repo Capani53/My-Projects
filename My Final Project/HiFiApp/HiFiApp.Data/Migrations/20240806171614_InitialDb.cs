@@ -106,9 +106,9 @@ namespace HiFiApp.Data.Migrations
                 columns: new[] { "Id", "CreatedDate", "IsActive", "ModifiedDate", "Name", "PhotoUrl" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 8, 5, 21, 27, 59, 912, DateTimeKind.Local).AddTicks(6477), false, new DateTime(2024, 8, 5, 21, 27, 59, 912, DateTimeKind.Local).AddTicks(6494), "LG", "LG-logo.jpg" },
-                    { 2, new DateTime(2024, 8, 5, 21, 27, 59, 912, DateTimeKind.Local).AddTicks(6502), false, new DateTime(2024, 8, 5, 21, 27, 59, 912, DateTimeKind.Local).AddTicks(6503), "Samsung", "Samsung-logo.jpg" },
-                    { 3, new DateTime(2024, 8, 5, 21, 27, 59, 912, DateTimeKind.Local).AddTicks(6505), false, new DateTime(2024, 8, 5, 21, 27, 59, 912, DateTimeKind.Local).AddTicks(6507), "JBL", "JBL-logo.jpg" }
+                    { 1, new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7018), false, new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7035), "LG", "LG-logo.jpg" },
+                    { 2, new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7039), false, new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7041), "Samsung", "Samsung-logo.jpg" },
+                    { 3, new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7043), false, new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7044), "JBL", "JBL-logo.jpg" }
                 });
 
             migrationBuilder.InsertData(
@@ -116,9 +116,9 @@ namespace HiFiApp.Data.Migrations
                 columns: new[] { "Id", "CreatedDate", "Description", "IsActive", "IsHome", "ModifiedDate", "Name" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 8, 5, 21, 27, 59, 913, DateTimeKind.Local).AddTicks(5468), "HiFi Home Teathre", true, true, new DateTime(2024, 8, 5, 21, 27, 59, 913, DateTimeKind.Local).AddTicks(5480), "Home Theathre" },
-                    { 2, new DateTime(2024, 8, 5, 21, 27, 59, 913, DateTimeKind.Local).AddTicks(5486), "HiFi soundbar", true, true, new DateTime(2024, 8, 5, 21, 27, 59, 913, DateTimeKind.Local).AddTicks(5487), "Soundbars" },
-                    { 3, new DateTime(2024, 8, 5, 21, 27, 59, 913, DateTimeKind.Local).AddTicks(5490), "HiFi Headphone", true, true, new DateTime(2024, 8, 5, 21, 27, 59, 913, DateTimeKind.Local).AddTicks(5492), "Headphones" }
+                    { 1, new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3716), "HiFi Home Teathre", true, true, new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3726), "Home Theathre" },
+                    { 2, new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3730), "HiFi soundbar", true, true, new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3731), "Soundbars" },
+                    { 3, new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3734), "HiFi Headphone", true, true, new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3736), "Headphones" }
                 });
 
             migrationBuilder.InsertData(
@@ -126,9 +126,9 @@ namespace HiFiApp.Data.Migrations
                 columns: new[] { "Id", "BrandId", "CreatedDate", "Description", "ImageUrl", "IsActive", "IsHome", "ModifiedDate", "Name", "Price", "Properties", "Stock" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2024, 8, 5, 21, 27, 59, 916, DateTimeKind.Local).AddTicks(7803), "HiFi Home Teathre", "lg.jpg", true, true, new DateTime(2024, 8, 5, 21, 27, 59, 916, DateTimeKind.Local).AddTicks(7818), "LG HT-1000EV", 30000m, "DTS, Dolby Atmos, Bluetooth", 200 },
-                    { 2, 2, new DateTime(2024, 8, 5, 21, 27, 59, 916, DateTimeKind.Local).AddTicks(7831), "HiFi Soundbar", "samsung.jpg", true, true, new DateTime(2024, 8, 5, 21, 27, 59, 916, DateTimeKind.Local).AddTicks(7832), "Samsung Q800C", 20000m, "DTS, Dolby Atmos, Bluetooth", 150 },
-                    { 3, 3, new DateTime(2024, 8, 5, 21, 27, 59, 916, DateTimeKind.Local).AddTicks(7837), "HiFi Headphone", "jbl.png", true, true, new DateTime(2024, 8, 5, 21, 27, 59, 916, DateTimeKind.Local).AddTicks(7839), "JBL Quantum One", 10000m, "DTS, Dolby Atmos", 100 }
+                    { 1, 1, new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3222), "HiFi Home Teathre", "lg.jpg", true, true, new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3240), "LG HT-1000EV", 30000m, "DTS, Dolby Atmos, Bluetooth", 200 },
+                    { 2, 2, new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3253), "HiFi Soundbar", "samsung.jpg", true, true, new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3254), "Samsung Q800C", 20000m, "DTS, Dolby Atmos, Bluetooth", 150 },
+                    { 3, 3, new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3259), "HiFi Headphone", "jbl.png", true, true, new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3261), "JBL Quantum One", 10000m, "DTS, Dolby Atmos", 100 }
                 });
 
             migrationBuilder.InsertData(

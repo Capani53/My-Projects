@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HiFiApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+774ed2bc6512b6e0351b48a9caa45549a1bb0f2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+989338022991183884317e4cf8be1ce2422f52d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("HiFiApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HiFiApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

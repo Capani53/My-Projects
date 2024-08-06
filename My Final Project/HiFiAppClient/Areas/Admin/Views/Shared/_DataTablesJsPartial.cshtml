@@ -1,9 +1,13 @@
-﻿<script src="https://cdn.datatables.net/v/bs4/dt-2.1.3/sp-2.3.1/datatables.min.js"></script>
+﻿<script src="https://cdn.datatables.net/v/bs5/dt-1.13.4/datatables.min.js"></script>
 
 <script>
-    $(document).ready(function)(){
-    $("#data-table").DataTable({
+    $(document).ready(function () {
+        $("#data-table").DataTable({
+            "language": {
+                "url": "plugins/datatables-language/tr.json"
+            },
+            "lengthMenu": [25, 50, 100]
 
-      });
+        });
     });
 </script>

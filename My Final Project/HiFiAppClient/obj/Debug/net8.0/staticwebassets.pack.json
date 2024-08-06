@@ -1717,6 +1717,10 @@
       "PackagePath": "staticwebassets\\admin\\plugins\\datatables-keytable\\js\\keyTable.bootstrap4.min.js"
     },
     {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\admin\\plugins\\datatables-language\\tr.json",
+      "PackagePath": "staticwebassets\\admin\\plugins\\datatables-language\\tr.json"
+    },
+    {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\admin\\plugins\\datatables-responsive\\css\\responsive.bootstrap4.css",
       "PackagePath": "staticwebassets\\admin\\plugins\\datatables-responsive\\css\\responsive.bootstrap4.css"
     },
