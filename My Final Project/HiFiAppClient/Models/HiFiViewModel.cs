@@ -44,6 +44,7 @@ namespace HiFiAppClient.Models
 
         [JsonPropertyName("Categories")]
         public List<CategoryViewModel> Categories { get; set; }
+
         [JsonPropertyName("Brand")]
         public BrandViewModel Brand { get; set; }
     }

@@ -15,7 +15,7 @@ namespace HiFiAppClient.Areas.Admin.Controllers
             var rootHiFis = new Root<List<HiFiModel>>();
             using (var httpClient = new HttpClient())
             {
-                using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/HiFis/getallhiFis"))
+                using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/hiFis/getallhiFis"))
                 {
                     if (!httpResponseMessage.IsSuccessStatusCode)
                     {

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiappclient\\areas\\admin\\views\\hifi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:areas\\admin\\views\\hifi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiappclient\\areas\\admin\\views\\hifi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:areas\\admin\\views\\hifi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Views\\HiFi\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\HiFi\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Views\\HiFi\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\HiFi\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Views\\HiFi\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\HiFi\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Views\\HiFi\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\HiFi\\Create.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T18:10:14.005Z",
+              "WhenOpened": "2024-08-07T13:13:51.391Z",
               "EditorCaption": ""
             }
           ]
