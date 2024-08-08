@@ -4701,6 +4701,14 @@
       "PackagePath": "staticwebassets\\admin\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css"
     },
     {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\admin\\plugins\\image-uploader\\image-uploader.min.css",
+      "PackagePath": "staticwebassets\\admin\\plugins\\image-uploader\\image-uploader.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\admin\\plugins\\image-uploader\\image-uploader.min.js",
+      "PackagePath": "staticwebassets\\admin\\plugins\\image-uploader\\image-uploader.min.js"
+    },
+    {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\admin\\plugins\\inputmask\\inputmask.es6.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\inputmask\\inputmask.es6.js"
     },

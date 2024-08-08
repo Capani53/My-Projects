@@ -46,27 +46,27 @@ namespace HiFiApp.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7018),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9670),
                             IsActive = false,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7035),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9683),
                             Name = "LG",
                             PhotoUrl = "LG-logo.jpg"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7039),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9686),
                             IsActive = false,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7041),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9687),
                             Name = "Samsung",
                             PhotoUrl = "Samsung-logo.jpg"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7043),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9689),
                             IsActive = false,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 371, DateTimeKind.Local).AddTicks(7044),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9690),
                             Name = "JBL",
                             PhotoUrl = "JBL-logo.jpg"
                         });
@@ -107,31 +107,31 @@ namespace HiFiApp.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3716),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4301),
                             Description = "HiFi Home Teathre",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3726),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4313),
                             Name = "Home Theathre"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3730),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4316),
                             Description = "HiFi soundbar",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3731),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4317),
                             Name = "Soundbars"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3734),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4319),
                             Description = "HiFi Headphone",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 372, DateTimeKind.Local).AddTicks(3736),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4319),
                             Name = "Headphones"
                         });
                 });
@@ -189,12 +189,12 @@ namespace HiFiApp.Data.Migrations
                         {
                             Id = 1,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3222),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9099),
                             Description = "HiFi Home Teathre",
-                            ImageUrl = "lg.jpg",
+                            ImageUrl = "images/HiFis/lg.jpg",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3240),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9111),
                             Name = "LG HT-1000EV",
                             Price = 30000m,
                             Properties = "DTS, Dolby Atmos, Bluetooth",
@@ -204,12 +204,12 @@ namespace HiFiApp.Data.Migrations
                         {
                             Id = 2,
                             BrandId = 2,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3253),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9119),
                             Description = "HiFi Soundbar",
-                            ImageUrl = "samsung.jpg",
+                            ImageUrl = "images/HiFis/samsung.jpg",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3254),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9119),
                             Name = "Samsung Q800C",
                             Price = 20000m,
                             Properties = "DTS, Dolby Atmos, Bluetooth",
@@ -219,12 +219,12 @@ namespace HiFiApp.Data.Migrations
                         {
                             Id = 3,
                             BrandId = 3,
-                            CreatedDate = new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3259),
+                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9123),
                             Description = "HiFi Headphone",
-                            ImageUrl = "jbl.png",
+                            ImageUrl = "images/HiFis/jbl.png",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 6, 20, 16, 13, 375, DateTimeKind.Local).AddTicks(3261),
+                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9124),
                             Name = "JBL Quantum One",
                             Price = 10000m,
                             Properties = "DTS, Dolby Atmos",

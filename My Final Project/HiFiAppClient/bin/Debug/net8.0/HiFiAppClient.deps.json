@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "HiFiAppClient/1.0.0": {
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "HiFiAppClient.dll": {}

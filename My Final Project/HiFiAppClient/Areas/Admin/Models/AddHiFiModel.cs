@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace HiFiAppClient.Areas.Admin.Models
@@ -15,19 +17,34 @@ namespace HiFiAppClient.Areas.Admin.Models
         public bool IsHome { get; set; }
 
         [JsonPropertyName("name")]
+        [DisplayName("HiFi Adı")]
+        [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
+        [MinLength(5,ErrorMessage ="Bu alan 5 uzunluğu karakterden kısa olamaz")]
         public string Name { get; set; }
 
         [JsonPropertyName("properties")]
+        [DisplayName("Özellikler")]
+        [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
+        [MinLength(5, ErrorMessage = "Bu alan 5 uzunluğu karakterden kısa olamaz")]
         public string Properties { get; set; }
 
         [JsonPropertyName("description")]
+        [DisplayName("Açıklama")]
+        [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
+        [MinLength(5, ErrorMessage = "Bu alan 5 uzunluğu karakterden kısa olamaz")]
         public string Description { get; set; }
 
         [JsonPropertyName("stock")]
-        public int Stock { get; set; }
+        [DisplayName("Stok")]
+        [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
+        [Range(minimum:0, maximum:100, ErrorMessage = "Bu alana 0-1000 aralığı dışında bir değer girilemez")]
+        public int? Stock { get; set; }
 
         [JsonPropertyName("price")]
-        public int Price { get; set; }
+        [DisplayName("Fiyat")]
+        [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
+        [Range(minimum: 5000, maximum: 200000, ErrorMessage = "Bu alana 0-1000 aralığı dışında bir değer girilemez")]
+        public decimal? Price { get; set; }
 
         [JsonPropertyName("imageUrl")]
         public string ImageUrl { get; set; }

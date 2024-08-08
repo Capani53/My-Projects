@@ -1,4 +1,5 @@
-﻿using HiFiApp.Shared.ResponseDto;
+﻿using HiFiApp.Shared.Dtos;
+using HiFiApp.Shared.ResponseDto;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,6 @@ namespace HiFiApp.Shared.Helpers.Abstract
 {
     public interface IImageHelper
     {
-        Task<Response<string>> Upload(IFormFile file, string directoryName);
+        Task<Response<ImageDto>> Upload(IFormFile file, string directoryName);
     }
 }
