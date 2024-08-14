@@ -7,9 +7,9 @@ namespace HiFiAppClient.Repository
     public static class DataRepository
     {
         private static readonly List<CategoryViewModel> _categories = [
-            new(){Id=1, Name="Home Teathre", CountOfHiFis=45, Description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias, vero voluptatibus adipisci qui hic ipsam, impedit natus cupiditate quidem culpa repellat eligendi necessitatibus in at minima odit vel molestiae."},
-            new(){Id=2, Name="Soundbar", CountOfHiFis=75, Description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias, vero voluptatibus adipisci qui hic ipsam, impedit natus cupiditate quidem culpa repellat eligendi necessitatibus in at minima odit vel molestiae."},
-            new(){Id=3, Name="Bluetooth Speaker", CountOfHiFis=35, Description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias, vero voluptatibus adipisci qui hic ipsam, impedit natus cupiditate quidem culpa repellat eligendi necessitatibus in at minima odit vel molestiae."},
+            new(){Id=1, Name="Home Teathre", CountOfHiFi=45, Description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias, vero voluptatibus adipisci qui hic ipsam, impedit natus cupiditate quidem culpa repellat eligendi necessitatibus in at minima odit vel molestiae."},
+            new(){Id=2, Name="Soundbar", CountOfHiFi=75, Description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias, vero voluptatibus adipisci qui hic ipsam, impedit natus cupiditate quidem culpa repellat eligendi necessitatibus in at minima odit vel molestiae."},
+            new(){Id=3, Name="Bluetooth Speaker", CountOfHiFi=35, Description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias, vero voluptatibus adipisci qui hic ipsam, impedit natus cupiditate quidem culpa repellat eligendi necessitatibus in at minima odit vel molestiae."},
         ];
         private static readonly List<HiFiViewModel> _hiFis = [
             new HiFiViewModel()

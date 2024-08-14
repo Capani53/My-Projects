@@ -1,17 +1,14 @@
-﻿using AutoMapper;
-using HiFiApp.Entity.Concrete;
-using HiFiApp.Shared.Dtos;
-using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
+using HiFiApp.Entity.Concrete;
+using HiFiApp.Shared.Dtos;
 
 namespace HiFiApp.Service.Mapping
 {
-    internal class GeneralMappingProfile:Profile
+    public class GeneralMappingProfile : Profile
     {
         public GeneralMappingProfile()
         {
@@ -21,9 +18,21 @@ namespace HiFiApp.Service.Mapping
 
             CreateMap<Brand, BrandDto>().ReverseMap();
 
-            CreateMap<HiFi, HiFiDto>().ForMember(hdto => hdto.Categories, options => options.MapFrom(h => h.HiFiCategories.Select(hc => hc.Category))).ReverseMap();
+            CreateMap<HiFi, HiFiDto>()
+                .ForMember(
+                    bdto => bdto.Categories,
+                    options => options.MapFrom(h => h.HiFiCategories.Select(hc => hc.Category))
+                )
+                .ReverseMap();
+
             CreateMap<HiFi, AddHiFiDto>().ReverseMap();
             CreateMap<HiFi, EditHiFiDto>().ReverseMap();
+
+            CreateMap<Cart, CartDto>().ReverseMap();
+            CreateMap<CartItem, CartItemDto>().ReverseMap();
+            CreateMap<Order, OrderDto>().ReverseMap();
+            CreateMap<OrderItem, OrderItemDto>().ReverseMap();
+
 
         }
     }

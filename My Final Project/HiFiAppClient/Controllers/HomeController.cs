@@ -4,15 +4,15 @@ using HiFiAppClient.Models;
 using HiFiAppClient.Repository;
 using System.Text.Json;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using System.Net.Http;
+using System.Collections.Generic;
 
 namespace HiFiAppClient.Controllers;
 
 public class HomeController : Controller
 {
     public async Task<IActionResult> Index()
-    {
+    {        
         var rootCategories = new Root<List<CategoryViewModel>>();
         using (var httpClient = new HttpClient())
         {
@@ -26,24 +26,24 @@ public class HomeController : Controller
                 rootCategories = JsonSerializer.Deserialize<Root<List<CategoryViewModel>>>(contentResponse);
             }
         }
-
-        var rootHiFis = new Root<List<HiFiViewModel>>();
+                
+        var rootHiFi = new Root<List<HiFiViewModel>>();
         using (var httpClient = new HttpClient())
         {
-            using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/HiFis/homehifis"))
+            using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/HiFi/homehiFis"))
             {
-                if (!httpResponseMessage.IsSuccessStatusCode)
+                if(!httpResponseMessage.IsSuccessStatusCode)
                 {
                     return null;
                 }
                 string contentResponse = await httpResponseMessage.Content.ReadAsStringAsync();
-                rootHiFis = JsonSerializer.Deserialize<Root<List<HiFiViewModel>>>(contentResponse);
+                rootHiFi = JsonSerializer.Deserialize<Root<List<HiFiViewModel>>>(contentResponse);
             }
         }
         var homePageModel = new HomePageModel
         {
-            Categories = rootCategories.Data,
-            HiFis = rootHiFis.Data
+            Categories=rootCategories.Data,
+            HiFi=rootHiFi.Data
         };
         return View(homePageModel);
     }

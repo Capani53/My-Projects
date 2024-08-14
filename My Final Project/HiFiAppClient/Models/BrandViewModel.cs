@@ -8,9 +8,6 @@ namespace HiFiAppClient.Models
         [JsonPropertyName("Id")]
         public int Id { get; set; }
 
-        [JsonPropertyName("Name")]
-        public string Name { get; set; }
-
         [JsonPropertyName("CreatedDate")]
         public DateTime CreatedDate { get; set; }
 
@@ -19,6 +16,9 @@ namespace HiFiAppClient.Models
 
         [JsonPropertyName("IsActive")]
         public bool IsActive { get; set; }
+
+        [JsonPropertyName("Name")]
+        public string Name { get; set; }        
 
         [JsonPropertyName("PhotoUrl")]
         public string PhotoUrl { get; set; }

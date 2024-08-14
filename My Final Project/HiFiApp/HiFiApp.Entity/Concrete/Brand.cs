@@ -9,12 +9,12 @@ namespace HiFiApp.Entity.Concrete
 {
     public class Brand : IBaseEntity
     {
-        public int Id { get ; set ; }
-        public DateTime CreatedDate { get ; set ; } = DateTime.Now;
-        public DateTime ModifiedDate { get ; set ; } =DateTime.Now;
-        public bool IsActive { get ; set ; }
-        public string Name { get; set; }
+        public int Id { get; set; }
+        public DateTime CreatedDate { get; set; }= DateTime.Now;
+        public DateTime ModifiedDate { get; set; }=DateTime.Now;
+        public bool IsActive { get; set; }
+        public string Name { get; set; }        
         public string PhotoUrl { get; set; }
-        public List<HiFi> HiFis { get; set ; }
+        public List<HiFi> HiFis { get; set; }
     }
 }

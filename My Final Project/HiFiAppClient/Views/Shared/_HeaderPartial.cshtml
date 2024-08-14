@@ -1,37 +1,40 @@
-﻿<!-- Header Section Begin -->
+﻿    <!-- Header Section Begin -->
 <header class="header">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-2 col-lg-2">
                 <div class="header__logo">
-                    <a href="./index.html"><span><img src="~/ui/img/logo.jpg" alt="logo" width="350" height="175" /></span></a>
+                    <a href="./index.html">
+                        <span>HiFi WORLD</span>
+                    </a>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-7">
+            <div class="col-xl-5 col-lg-5">
                 <nav class="header__menu">
                     <ul>
                         @await Html.PartialAsync("_TopMenuPartial")
                     </ul>
                 </nav>
             </div>
-            <div class="col-lg-3">
+            <div class="col-xl-5 col-lg-5">
                 <div class="header__right">
                     <div class="header__right__auth">
                         <a href="#">Giriş Yap</a>
                         <a href="#">Kayıt Ol</a>
                     </div>
+                    <a class="btn btn-link btn-sm" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin Panel</a>
                     <ul class="header__right__widget">
-                        <li><i class="fa-solid fa-magnifying-glass search-switch"></i></li>
+                        <li><span class="icon_search search-switch"></span></li>
                         <li>
                             <a href="#">
-                                <i class="fa-regular fa-heart"></i>
+                                <span class="icon_heart_alt"></span>
                                 <div class="tip">2</div>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="fa-solid fa-basket-shopping"></i>
-                                <div class="tip">2</div>
+                            <a asp-area="" asp-controller="Cart" asp-action="Index">
+                                <span class="icon_bag_alt"></span>
+                                <div class="tip"></div>
                             </a>
                         </li>
                     </ul>

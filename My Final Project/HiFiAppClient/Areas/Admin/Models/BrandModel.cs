@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 namespace HiFiAppClient.Areas.Admin.Models
@@ -7,9 +8,6 @@ namespace HiFiAppClient.Areas.Admin.Models
     {
         [JsonPropertyName("Id")]
         public int Id { get; set; }
-
-        [JsonPropertyName("Name")]
-        public string Name { get; set; }
 
         [JsonPropertyName("CreatedDate")]
         public DateTime CreatedDate { get; set; }
@@ -20,7 +18,10 @@ namespace HiFiAppClient.Areas.Admin.Models
         [JsonPropertyName("IsActive")]
         public bool IsActive { get; set; }
 
+        [JsonPropertyName("Name")]
+        public string Name { get; set; } 
+
         [JsonPropertyName("PhotoUrl")]
-        public string PhotoUrl { get; set; }
+        public string PhotoUrl { get; set; }        
     }
 }

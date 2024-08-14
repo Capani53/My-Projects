@@ -10,13 +10,15 @@ namespace HiFiApp.Data.Concrete.EfCore.Repositories
 {
     public class EfCoreBrandRepository:EfCoreGenericRepository<Brand>,IBrandRepository
     {
-        public EfCoreBrandRepository(HiFiAppDbContext hiFiAppDbContext):base(hiFiAppDbContext)
+        public EfCoreBrandRepository(HiFiAppDbContext hiFisAppDbContext):base(hiFisAppDbContext)
         {
             
         }
-        private HiFiAppDbContext Context 
+        private HiFiAppDbContext Context
         {
             get { return _dbContext as HiFiAppDbContext; }
         }
+
+
     }
 }

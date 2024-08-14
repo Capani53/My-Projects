@@ -2,37 +2,36 @@
 @{
     var categories = Model;
 }
-
 <!-- Categories Section Begin -->
 <section class="categories">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 p-0">
+            <div class="col-lg-12 p-0">
                 <div class="categories__item categories__large__item set-bg"
-                     data-setbg="/ui/img/categories/category-background.png">
+                     data-setbg="/ui/img/categories/category-1.png">
                     <div class="categories__text">
                         <h1 style="color:orange">@categories[0].Name</h1>
                         <p style="color:deepskyblue">@categories[0].Description</p>
-                        <p style="color:orange">@categories[0].CountOfHiFis HiFi</p>
-                        <a href="#" style="color:red">ALIŞVERİŞ YAP</a>
+                        <p style="color:deepskyblue">@categories[0].CountOfHiFi HiFi</p>
+                        <a style="color:red" href="#">ALIŞVERİŞ YAP</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="row">
-                    @for (int i= 1; i < categories.Count; i++)
-                    {
-                        <div class="col-lg12 col-md-12 col-sm-12 p-0">
-                            <div class="categories__item set-bg" data-setbg="/ui/img/categories/soundbar-category.jpg">                                
+                    @for (int i = 1; i < categories.Count; i++)
+                    {                        
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+                            <div class="categories__item set-bg" data-setbg="/ui/img/categories/category-2.jpg">
                                 <div class="categories__text">
                                     <h4 style="color:orange">@categories[i].Name</h4>
                                     <p style="color:deepskyblue">@categories[i].Description</p>
-                                    <p style="color:orange">@categories[i].CountOfHiFis HiFi</p>
-                                    <a style="color:red" href="#" >ALIŞVERİŞ YAP</a>
+                                    <p style="color:deepskyblue">@categories[i].CountOfHiFi HiFi</p>
+                                    <a style="color:red" href="#">ALIŞVERİŞ YAP</a>
                                 </div>
                             </div>
                         </div>
-                    }                    
+                    }
                 </div>
             </div>
         </div>

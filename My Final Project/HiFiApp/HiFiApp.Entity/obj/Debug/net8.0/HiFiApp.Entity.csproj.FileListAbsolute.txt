@@ -21,3 +21,14 @@ C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\H
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\HiFiApp.Entity.pdb
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\2\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\ref\HiFiApp.Entity.dll
 C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\HiFiApp.Entity.sourcelink.json
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\bin\Debug\net8.0\HiFiApp.Entity.deps.json
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\bin\Debug\net8.0\HiFiApp.Entity.dll
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\bin\Debug\net8.0\HiFiApp.Entity.pdb
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\HiFiApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\HiFiApp.Entity.AssemblyInfoInputs.cache
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\HiFiApp.Entity.AssemblyInfo.cs
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\HiFiApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\HiFiApp.Entity.dll
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\refint\HiFiApp.Entity.dll
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\HiFiApp.Entity.pdb
+C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Entity\obj\Debug\net8.0\ref\HiFiApp.Entity.dll

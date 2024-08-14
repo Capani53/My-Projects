@@ -1,6 +1,7 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace HiFiApp.Shared.Dtos
@@ -13,9 +14,10 @@ namespace HiFiApp.Shared.Dtos
         public string Properties { get; set; }
         public string Description { get; set; }
         public int Stock { get; set; }
-        public decimal Price { get; set; }
+        public decimal Price { get; set; }        
         public string ImageUrl { get; set; }
         public List<int> CategoryIds { get; set; } = [];
         public int BrandId { get; set; }
+
     }
 }

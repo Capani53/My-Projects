@@ -1,5 +1,5 @@
-﻿@model List<HiFiModel>
-<!-- Content Wrapper. Contains page content -->
+﻿ @model List<HiFiModel> 
+ <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
@@ -9,10 +9,11 @@
                     <h1 class="m-0">HiFi</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6 d-flex justify-content-end">
-                    <a asp-area="Admin"
-                    asp-controller="HiFi"
-                    asp-action="Create"                    
-                    class="btn btn-primary btn-sm">Yeni HiFi</a>
+                    <a
+                        asp-area="Admin"
+                        asp-controller="HiFi"
+                        asp-action="Create"
+                        class="btn btn-primary btn-sm">Yeni HiFi</a>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -32,41 +33,40 @@
                                         <th>Id</th>
                                         <th>Resim</th>
                                         <th>Ad</th>
-                                        <th>Ana Sayfa</th>
+                                        <th>Anasayfa</th>
                                         <th>Stok</th>
                                         <th>Marka</th>
                                         <th>#</th>
                                     </tr>
-                                </thead>                                
+                                </thead>
                                 <tbody>
                                     @foreach (var hiFi in Model)
                                     {
                                         <tr>
                                             <td>@hiFi.Id</td>
                                             <td>
-                                               <img src="http://localhost:5500/@hiFi.ImageUrl" width="25" />
+                                                <img src="http://localhost:5500/@hiFi.ImageUrl" width="25" />
                                             </td>
                                             <td>@hiFi.Name</td>
                                             <td>@hiFi.IsHome</td>
                                             <td>@hiFi.Stock</td>
                                             <td>@hiFi.Brand.Name</td>
                                             <td>
-                                                <a class="btn btn-info btn-sm"
-                                                   asp-area="Admin"
-                                                   asp-controller="HiFi"
-                                                   asp-action="Update"
-                                                   asp-route-id="@hiFi.Id"
+                                                <a class="btn btn-info btn-sm" 
+                                                    asp-area="Admin"
+                                                    asp-controller="HiFi"
+                                                    asp-action="Update"
+                                                    asp-route-id="@hiFi.Id"
                                                 >Göster</a>
                                             </td>
                                         </tr>
                                     }
-                                </tbody>                                
+                                </tbody>
                             </table>
                         </div>
                         <!-- /.card-body -->
                     </div>
                 </div>
-                <!-- right col -->
             </div>
             <!-- /.row (main row) -->
         </div><!-- /.container-fluid -->
@@ -75,9 +75,12 @@
 </div>
 <!-- /.content-wrapper -->
 
+
 @section Css{
     @await Html.PartialAsync("_DataTablesCssPartial")
+
 }
+
 @section Js{
     @await Html.PartialAsync("_DataTablesJsPartial")
 }

@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Masa\u00FCst\u00FC\\My Final Project\\HiFiAppClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\masa\u00FCst\u00FC\\my final project\\hifiappclient\\views\\shared\\_hifipartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:views\\shared\\_hifipartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\masa\u00FCst\u00FC\\my final project\\hifiappclient\\views\\shared\\_categoriespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:views\\shared\\_categoriespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_HiFiPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Masa\u00FCst\u00FC\\My Final Project\\HiFiAppClient\\Views\\Shared\\_HiFiPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_HiFiPartial.cshtml",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Masa\u00FCst\u00FC\\My Final Project\\HiFiAppClient\\Views\\Shared\\_HiFiPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_HiFiPartial.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T19:53:11.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_CategoriesPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Masa\u00FCst\u00FC\\My Final Project\\HiFiAppClient\\Views\\Shared\\_CategoriesPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_CategoriesPartial.cshtml",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Masa\u00FCst\u00FC\\My Final Project\\HiFiAppClient\\Views\\Shared\\_CategoriesPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_CategoriesPartial.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T18:34:54.298Z",
+              "EditorCaption": ""
             }
           ]
         }

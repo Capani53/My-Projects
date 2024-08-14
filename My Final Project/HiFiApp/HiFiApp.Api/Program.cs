@@ -6,22 +6,33 @@ using HiFiApp.Service.Concrete;
 using HiFiApp.Shared.Helpers.Abstract;
 using HiFiApp.Shared.Helpers.Concrete;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+    options.JsonSerializerOptions.MaxDepth = 64;
+});
 
 
-builder.Services.AddControllers();
 builder.Services.AddDbContext<HiFiAppDbContext>(options=>options.UseSqlite(builder.Configuration.GetConnectionString("SqliteConnection")));
 
 builder.Services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
 builder.Services.AddScoped<IHiFiRepository, EfCoreHiFiRepository>();
 builder.Services.AddScoped<IBrandRepository, EfCoreBrandRepository>();
+builder.Services.AddScoped<ICartRepository, EfCoreCartRepository>();
+builder.Services.AddScoped<ICartItemRepository, EfCoreCartItemRepository>();
+builder.Services.AddScoped<IOrderRepository, EfCoreOrderRepository>();
 
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IHiFiService, HiFiService>();
 builder.Services.AddScoped<IBrandService, BrandService>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<ICartItemService, CartItemService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 builder.Services.AddScoped<IImageHelper, ImageHelper>();
 

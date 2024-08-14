@@ -31,7 +31,7 @@ namespace HiFiAppClient.Models
         public string Properties { get; set; }
 
         [JsonPropertyName("Description")]
-        public string Description { get; set; }
+        public string Summary { get; set; }
 
         [JsonPropertyName("Stock")]
         public int Stock { get; set; }

@@ -1,79 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\JBL-logo.png",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\JBL-logo.png",
       "PackagePath": "staticwebassets\\images\\Brands\\JBL-logo.png"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\LG-logo.png",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\LG-logo.png",
       "PackagePath": "staticwebassets\\images\\Brands\\LG-logo.png"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\Samsung-logo.png",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\Samsung-logo.png",
       "PackagePath": "staticwebassets\\images\\Brands\\Samsung-logo.png"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\0f64252a-4c97-46cb-856d-c34f1bfb6b1d.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\0f64252a-4c97-46cb-856d-c34f1bfb6b1d.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\1ddf6280-0c6b-4d59-b62a-867d234959d7.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\1ddf6280-0c6b-4d59-b62a-867d234959d7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\252f59bf-65a5-409f-ab81-1bba105f65fc.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\252f59bf-65a5-409f-ab81-1bba105f65fc.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\cc4bc702-9eea-458f-98f0-88a5b5ab6cba.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\cc4bc702-9eea-458f-98f0-88a5b5ab6cba.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\d003f9bd-37b8-4d83-baa0-4f14aad35b1c.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\d003f9bd-37b8-4d83-baa0-4f14aad35b1c.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\jbl.png",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\jbl.png",
       "PackagePath": "staticwebassets\\images\\HiFis\\jbl.png"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\lg.jpg",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\lg.jpg",
       "PackagePath": "staticwebassets\\images\\HiFis\\lg.jpg"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-1.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\product-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-2.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\product-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-3.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\product-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-4.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\product-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-5.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\product-5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-6.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\product-6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-7.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\product-7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\product-8.jpg",
-      "PackagePath": "staticwebassets\\images\\HiFis\\product-8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\samsung.jpg",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\samsung.jpg",
       "PackagePath": "staticwebassets\\images\\HiFis\\samsung.jpg"
     },
     {

@@ -6,6 +6,6 @@ namespace HiFiAppClient.Controllers
 {
     public class CategoryController : Controller
     {
-        
+
     }
 }

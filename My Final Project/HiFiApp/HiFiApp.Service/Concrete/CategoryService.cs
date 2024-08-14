@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using HiFiApp.Data.Abstract;
+using HiFiApp.Data.Concrete.EfCore.Repositories;
 using HiFiApp.Entity.Concrete;
 using HiFiApp.Service.Abstract;
 using HiFiApp.Shared.Dtos;
-using HiFiApp.Shared.ResponseDto;
-using Microsoft.EntityFrameworkCore.Metadata;
+using HiFiApp.Shared.ResponseDtos;
 
 namespace HiFiApp.Service.Concrete
 {
@@ -30,27 +30,29 @@ namespace HiFiApp.Service.Concrete
             Category category = _mapper.Map<Category>(addCategoryDto);
             Category createdCategory = await _categoryRepository.CreateAsync(category);
             if(createdCategory==null){
-            return Response<CategoryDto>.Fail("Veri tabanına kayıt işlemi sırasında bir sorun oluştu",404);
-        }  
+                return Response<CategoryDto>.Fail("Veri tabanına kayıt işlemi sırasında bir sorun oluştu",404);
+            }  
             CategoryDto categoryDto = _mapper.Map<CategoryDto>(createdCategory);
             return Response<CategoryDto>.Success(categoryDto,201);
+
         }
+
         public async Task<Response<NoContent>> DeleteAsync(int id)
         {
-           Category deletedCategory = await _categoryRepository.GetByIdAsync(id);
-           if (deletedCategory==null)
-           {
-           return Response<NoContent>.Fail("Böyle bir kategori bulunamadı", 404);
-           }
-           await _categoryRepository.DeleteAsync(deletedCategory);
-           return Response<NoContent>.Success(200);
+            Category deletedCategory = await _categoryRepository.GetByIdAsync(id);
+            if (deletedCategory==null)
+            {
+                return Response<NoContent>.Fail("Böyle bir kategori bulunamadı", 404);
+            }
+            await _categoryRepository.DeleteAsync(deletedCategory);
+            return Response<NoContent>.Success(200);
         }
 
         public async Task<Response<List<CategoryDto>>> GetActiveCategoriesAsync()
         {
             var categories = await _categoryRepository.GetActiveCategoriesAsync();
             if(categories.Count==0){
-                return Response<List<CategoryDto>>.Fail("Hiç aktif kategori bulunamadı", 404);
+                return Response<List<CategoryDto>>.Fail("Hiç aktif kategori bulunamadı",404);
             }
             var categoryDtoList=_mapper.Map<List<CategoryDto>>(categories);
             return Response<List<CategoryDto>>.Success(categoryDtoList,200);
@@ -60,32 +62,32 @@ namespace HiFiApp.Service.Concrete
         {
             var categories = await _categoryRepository.GetAllAsync();
             if(categories.Count==0){
-                return Response<List<CategoryDto>>.Fail("Hiç kategori bulunamadı", 404);
+                return Response<List<CategoryDto>>.Fail("Hiç kategori bulunamadı",404);
             }
             var categoryDtoList=_mapper.Map<List<CategoryDto>>(categories);
-                return Response<List<CategoryDto>>.Success(categoryDtoList,200);
+            return Response<List<CategoryDto>>.Success(categoryDtoList,200);
         }
 
         public async Task<Response<CategoryDto>> GetByIdAsync(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
-          if(category==null){
-               return Response<CategoryDto>.Fail("Bu id'li kategori bulunamadı", 404);
-        }
-          CategoryDto categoryDto = _mapper.Map<CategoryDto>(category);
-               return Response<CategoryDto>.Success(categoryDto, 200);
+            if(category==null){
+                return Response<CategoryDto>.Fail("Bu id'li kategori bulunamadı", 404);
+            }
+            CategoryDto categoryDto = _mapper.Map<CategoryDto>(category);
+            return Response<CategoryDto>.Success(categoryDto, 200);
         }
 
         public async Task<Response<List<CategoryDto>>> GetHomeCategoriesAsync()
         {
             var categories = await _categoryRepository.GetHomeCategoriesAsync();
             if(categories.Count==0){
-                return Response<List<CategoryDto>>.Fail("Hiç ana sayfa kategori bulunamadı", 404);
+                return Response<List<CategoryDto>>.Fail("Hiç ana sayfa kategori bulunamadı",404);
             }
             var categoryDtoList=_mapper.Map<List<CategoryDto>>(categories);
             foreach (var categoryDto in categoryDtoList)
             {
-                categoryDto.CountOfHiFis=await _hiFiRepository.GetCount(categoryDto.Id);
+                categoryDto.CountOfHiFi=await _hiFiRepository.GetCount(categoryDto.Id);
             }
             return Response<List<CategoryDto>>.Success(categoryDtoList,200);
         }
@@ -94,12 +96,12 @@ namespace HiFiApp.Service.Concrete
         {
             var editedCategory = _mapper.Map<Category>(editCategoryDto);
             if(editedCategory==null){
-              return Response<CategoryDto>.Fail("Bir hata oluştu",404);
-        }
+                return Response<CategoryDto>.Fail("Bir hata oluştu",404);
+            }
             editedCategory.ModifiedDate=DateTime.Now;
             await _categoryRepository.UpdateAsync(editedCategory);
             var categoryDto = _mapper.Map<CategoryDto>(editedCategory);
             return Response<CategoryDto>.Success(categoryDto,200);
         }
     }
-}    
+}

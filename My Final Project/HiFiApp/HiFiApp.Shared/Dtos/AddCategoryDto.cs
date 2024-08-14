@@ -7,8 +7,7 @@ namespace HiFiApp.Shared.Dtos
 {
     public class AddCategoryDto
     {
-       public string Name { get ; set ; }
-       public string Description { get; set; }
-       public bool IsHome { get; set; }
+        public string Name { get; set; }        
+        public bool IsHome { get; set; }
     }
 }

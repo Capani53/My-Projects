@@ -2,25 +2,24 @@
 @{
     var hiFis = Model;
 }
-
 <!-- Product Section Begin -->
 <section class="product spad">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4">
                 <div class="section-title">
-                    <h4>HiFi</h4>
+                    <h4>Popüler Ürünler</h4>
                 </div>
-            </div>            
+            </div>
         </div>
         <div class="row property__gallery">
             @foreach (var hiFi in hiFis)
             {
                 <div class="col-lg-3 col-md-4 col-sm-6 mix men">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="http://localhost:5500/images/hifis/@hiFi.ImageUrl">
+                        <div class="product__item__pic set-bg" data-setbg="http://localhost:5500/@hiFi.ImageUrl">
                             <ul class="product__hover">
-                                <li><a href="http://localhost:5500/images/hifis/@hiFi.ImageUrl" class="image-popup"><span class="arrow_expand"></span></a></li>
+                                <li><a href="http://localhost:5500/images/HiFis/@hiFi.ImageUrl" class="image-popup"><span class="arrow_expand"></span></a></li>
                                 <li><a href="#"><span class="icon_heart_alt"></span></a></li>
                                 <li><a href="#"><span class="icon_bag_alt"></span></a></li>
                             </ul>
@@ -39,7 +38,9 @@
                         </div>
                     </div>
                 </div>
-            }            
+            }
+            
+           
         </div>
     </div>
 </section>

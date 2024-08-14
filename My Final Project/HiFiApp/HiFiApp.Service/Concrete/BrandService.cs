@@ -2,7 +2,7 @@
 using HiFiApp.Data.Abstract;
 using HiFiApp.Service.Abstract;
 using HiFiApp.Shared.Dtos;
-using HiFiApp.Shared.ResponseDto;
+using HiFiApp.Shared.ResponseDtos;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -19,8 +19,8 @@ namespace HiFiApp.Service.Concrete
 
         public BrandService(IBrandRepository brandRepository, IMapper mapper)
         {
-            _brandRepository = brandRepository;
-            _mapper = mapper;
+            _brandRepository=brandRepository;
+            _mapper=mapper;
         }
 
         public Task<Response<BrandDto>> AddAsync(BrandDto addBrandDto)
@@ -36,16 +36,16 @@ namespace HiFiApp.Service.Concrete
         public async Task<Response<List<BrandDto>>> GetAllAsync()
         {
             var brands = await _brandRepository.GetAllAsync();
-            if (brands == null)
+            if (brands==null)
             {
-                return Response<List<BrandDto>>.Fail("Bir sorun oluştu",StatusCodes.Status400BadRequest);
+                return Response<List<BrandDto>>.Fail("Bir sorun oluştu", StatusCodes.Status400BadRequest);
             }
-            if (brands.Count == 0)
+            if (brands.Count==0)
             {
                 return Response<List<BrandDto>>.Success(StatusCodes.Status204NoContent);
             }
-            var brandDtoList =_mapper.Map<List<BrandDto>>(brands);
-            return Response<List<BrandDto>>.Success(brandDtoList,StatusCodes.Status200OK);
+            var brandDtoList = _mapper.Map<List<BrandDto>>(brands);
+            return Response<List<BrandDto>>.Success(brandDtoList, StatusCodes.Status200OK);
         }
 
         public Task<Response<BrandDto>> GetByIdAsync(int id)

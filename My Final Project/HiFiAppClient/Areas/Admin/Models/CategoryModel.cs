@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NuGet.Common;
+using System;
 using System.Text.Json.Serialization;
 
 namespace HiFiAppClient.Areas.Admin.Models
@@ -26,7 +27,7 @@ namespace HiFiAppClient.Areas.Admin.Models
         [JsonPropertyName("IsHome")]
         public bool IsHome { get; set; }
 
-        [JsonPropertyName("CountOfHiFis")]
-        public int CountOfHiFis { get; set; }
+        [JsonPropertyName("CountOfHiFi")]
+        public int CountOfHiFi { get; set; }
     }
 }

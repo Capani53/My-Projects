@@ -46,30 +46,74 @@ namespace HiFiApp.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9670),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 619, DateTimeKind.Local).AddTicks(6915),
                             IsActive = false,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9683),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 619, DateTimeKind.Local).AddTicks(6936),
                             Name = "LG",
                             PhotoUrl = "LG-logo.jpg"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9686),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 619, DateTimeKind.Local).AddTicks(6939),
                             IsActive = false,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9687),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 619, DateTimeKind.Local).AddTicks(6940),
                             Name = "Samsung",
                             PhotoUrl = "Samsung-logo.jpg"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9689),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 619, DateTimeKind.Local).AddTicks(6942),
                             IsActive = false,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 457, DateTimeKind.Local).AddTicks(9690),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 619, DateTimeKind.Local).AddTicks(6943),
                             Name = "JBL",
                             PhotoUrl = "JBL-logo.jpg"
                         });
+                });
+
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.Cart", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Carts");
+                });
+
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.CartItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CartId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("HiFiId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CartId");
+
+                    b.HasIndex("HiFiId");
+
+                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("HiFiApp.Entity.Concrete.Category", b =>
@@ -107,31 +151,31 @@ namespace HiFiApp.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4301),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 621, DateTimeKind.Local).AddTicks(6447),
                             Description = "HiFi Home Teathre",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4313),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 621, DateTimeKind.Local).AddTicks(6465),
                             Name = "Home Theathre"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4316),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 621, DateTimeKind.Local).AddTicks(6468),
                             Description = "HiFi soundbar",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4317),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 621, DateTimeKind.Local).AddTicks(6468),
                             Name = "Soundbars"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4319),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 621, DateTimeKind.Local).AddTicks(6471),
                             Description = "HiFi Headphone",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 458, DateTimeKind.Local).AddTicks(4319),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 621, DateTimeKind.Local).AddTicks(6471),
                             Name = "Headphones"
                         });
                 });
@@ -189,12 +233,12 @@ namespace HiFiApp.Data.Migrations
                         {
                             Id = 1,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9099),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 624, DateTimeKind.Local).AddTicks(2474),
                             Description = "HiFi Home Teathre",
                             ImageUrl = "images/HiFis/lg.jpg",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9111),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 624, DateTimeKind.Local).AddTicks(2488),
                             Name = "LG HT-1000EV",
                             Price = 30000m,
                             Properties = "DTS, Dolby Atmos, Bluetooth",
@@ -204,12 +248,12 @@ namespace HiFiApp.Data.Migrations
                         {
                             Id = 2,
                             BrandId = 2,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9119),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 624, DateTimeKind.Local).AddTicks(2497),
                             Description = "HiFi Soundbar",
                             ImageUrl = "images/HiFis/samsung.jpg",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9119),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 624, DateTimeKind.Local).AddTicks(2498),
                             Name = "Samsung Q800C",
                             Price = 20000m,
                             Properties = "DTS, Dolby Atmos, Bluetooth",
@@ -219,12 +263,12 @@ namespace HiFiApp.Data.Migrations
                         {
                             Id = 3,
                             BrandId = 3,
-                            CreatedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9123),
+                            CreatedDate = new DateTime(2024, 8, 13, 20, 26, 46, 624, DateTimeKind.Local).AddTicks(2502),
                             Description = "HiFi Headphone",
                             ImageUrl = "images/HiFis/jbl.png",
                             IsActive = true,
                             IsHome = true,
-                            ModifiedDate = new DateTime(2024, 8, 8, 21, 20, 16, 459, DateTimeKind.Local).AddTicks(9124),
+                            ModifiedDate = new DateTime(2024, 8, 13, 20, 26, 46, 624, DateTimeKind.Local).AddTicks(2502),
                             Name = "JBL Quantum One",
                             Price = 10000m,
                             Properties = "DTS, Dolby Atmos",
@@ -279,6 +323,69 @@ namespace HiFiApp.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.OrderItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("HiFiId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HiFiId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderItems");
+                });
+
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.CartItem", b =>
+                {
+                    b.HasOne("HiFiApp.Entity.Concrete.Cart", "Cart")
+                        .WithMany("CartItems")
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HiFiApp.Entity.Concrete.HiFi", "HiFi")
+                        .WithMany()
+                        .HasForeignKey("HiFiId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cart");
+
+                    b.Navigation("HiFi");
+                });
+
             modelBuilder.Entity("HiFiApp.Entity.Concrete.HiFi", b =>
                 {
                     b.HasOne("HiFiApp.Entity.Concrete.Brand", "Brand")
@@ -309,9 +416,33 @@ namespace HiFiApp.Data.Migrations
                     b.Navigation("HiFi");
                 });
 
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.OrderItem", b =>
+                {
+                    b.HasOne("HiFiApp.Entity.Concrete.HiFi", "HiFi")
+                        .WithMany()
+                        .HasForeignKey("HiFiId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HiFiApp.Entity.Concrete.Order", "Order")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HiFi");
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("HiFiApp.Entity.Concrete.Brand", b =>
                 {
                     b.Navigation("HiFis");
+                });
+
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.Cart", b =>
+                {
+                    b.Navigation("CartItems");
                 });
 
             modelBuilder.Entity("HiFiApp.Entity.Concrete.Category", b =>
@@ -322,6 +453,11 @@ namespace HiFiApp.Data.Migrations
             modelBuilder.Entity("HiFiApp.Entity.Concrete.HiFi", b =>
                 {
                     b.Navigation("HiFiCategories");
+                });
+
+            modelBuilder.Entity("HiFiApp.Entity.Concrete.Order", b =>
+                {
+                    b.Navigation("OrderItems");
                 });
 #pragma warning restore 612, 618
         }

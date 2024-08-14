@@ -8,14 +8,13 @@ namespace HiFiApp.Data.Abstract
 {
     public interface IHiFiRepository:IGenericRepository<HiFi>
     {
-        Task<List<HiFi>> GetHiFisWithCategoriesAsync();
+        Task<List<HiFi>> GetHiFiWithCategoriesAsync();
         Task<HiFi> GetHiFiWithCategoriesAsync(int id);
-        Task<List<HiFi>> GetHiFisByCategoryIdAsync(int categoryId);
-        Task<HiFi> CreateHiFiWithCategoriesAsync(HiFi hiFi, List<int>categoryIds);
-        //Task<HiFi> UpdateHiFiWithCategoriesAsync(HiFi hiFi, List<int> categoryIds);
+        Task<List<HiFi>> GetHiFiByCategoryIdAsync(int categoryId);
+        Task<HiFi> CreateHiFiWithCategoriesAsync(HiFi hiFi, List<int> categoryIds);       
         Task ClearHiFiCategoriesAsync(int hiFiId);
-        Task<List<HiFi>> GetActiveHiFisAsync(bool isActive);
-        Task<int> GetCount (int? categoryId=null);
-        Task<List<HiFi>> GetHomeHiFisAsync();
+        Task<List<HiFi>> GetActiveHiFiAsync(bool isActive);
+        Task<int> GetCount(int? categoryId=null);
+        Task<List<HiFi>> GetHomeHiFiAsync();
     }
 }

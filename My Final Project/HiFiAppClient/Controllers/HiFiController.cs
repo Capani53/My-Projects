@@ -12,6 +12,6 @@ namespace HiFiAppClient.Controllers
 {
     public class HiFiController : Controller
     {
-       
+
     }
 }

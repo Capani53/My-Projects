@@ -1,5 +1,5 @@
 ﻿using HiFiApp.Shared.Dtos;
-using HiFiApp.Shared.ResponseDto;
+using HiFiApp.Shared.ResponseDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
