@@ -44,3 +44,18 @@ C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Data\bin\Deb
 C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Data\bin\Debug\net8.0\HiFiApp.Entity.pdb
 C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp..B8E7DE99.Up2Date
 C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\ref\HiFiApp.Data.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.csproj.AssemblyReference.cache
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.AssemblyInfoInputs.cache
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.AssemblyInfo.cs
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\refint\HiFiApp.Data.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.pdb
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\bin\Debug\net8.0\HiFiApp.Data.deps.json
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\bin\Debug\net8.0\HiFiApp.Data.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\bin\Debug\net8.0\HiFiApp.Data.pdb
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\bin\Debug\net8.0\HiFiApp.Entity.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\bin\Debug\net8.0\HiFiApp.Entity.pdb
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp..B8E7DE99.Up2Date
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\ref\HiFiApp.Data.dll

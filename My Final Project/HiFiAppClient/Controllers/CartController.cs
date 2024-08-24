@@ -13,7 +13,7 @@ namespace HiFiAppClient.Controllers
             var rootCart = new Root<CartViewModel>();
             using (var httpClient = new HttpClient())
             {
-                using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/Carts/getcart/"))
+                using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync("http://localhost:5500/api/Carts/getcart/3"))
                 {
                     if (!httpResponseMessage.IsSuccessStatusCode)
                     {

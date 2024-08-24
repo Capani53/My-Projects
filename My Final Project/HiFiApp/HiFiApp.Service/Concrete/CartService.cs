@@ -25,13 +25,17 @@ namespace HiFiApp.Service.Concrete
 
         public async Task<Response<CartDto>> GetCartByUserIdAsync(string userId)
         {
-            Cart cart = await _cartRepository.GetCartByUserIdAsync(userId);
+            var cart = await _cartRepository.GetCartByUserIdAsync(userId);
+            if (cart == null) {
+                return Response<CartDto>.Fail("İlgili kullanıcıya ait bir sepet bulunamadı!", 404);
+            }
+            var cartDto = _mapper.Map<CartDto>(cart);
             return Response<CartDto>.Success(_mapper.Map<CartDto>(cart), 200);
         }
 
         public async Task<Response<NoContent>> InitializeCartAsync(string userId)
         {
-            Cart cart = new Cart { UserId=userId };
+            var cart = new Cart { UserId=userId };
             await _cartRepository.CreateAsync(cart);
             return Response<NoContent>.Success(201);
         }

@@ -92,7 +92,7 @@ namespace HiFiAppClient.Areas.Admin.Controllers
                 Id = hiFi.Id,
                 Name = hiFi.Name,
                 CategoryIds = hiFi.Categories.Select(x => x.Id).ToList(),
-                BrandId = hiFi.Brand.Id,                
+                BrandId = hiFi.Brand.Id,
                 ImageUrl = hiFi.ImageUrl,
                 Properties = hiFi.Properties,
                 Description = hiFi.Description,

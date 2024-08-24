@@ -1,27 +1,47 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\JBL-logo.png",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\JBL-logo.png",
       "PackagePath": "staticwebassets\\images\\Brands\\JBL-logo.png"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\LG-logo.png",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\LG-logo.png",
       "PackagePath": "staticwebassets\\images\\Brands\\LG-logo.png"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\Samsung-logo.png",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\Samsung-logo.png",
       "PackagePath": "staticwebassets\\images\\Brands\\Samsung-logo.png"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\jbl.png",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-1.png",
+      "PackagePath": "staticwebassets\\images\\Categories\\category-1.png"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-2.jpg",
+      "PackagePath": "staticwebassets\\images\\Categories\\category-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-3.jpg",
+      "PackagePath": "staticwebassets\\images\\Categories\\category-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\23854f26-fa82-4727-8309-816762961007.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\23854f26-fa82-4727-8309-816762961007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\488419fe-6a3d-4742-88d7-016e0d3259c3.jpg",
+      "PackagePath": "staticwebassets\\images\\HiFis\\488419fe-6a3d-4742-88d7-016e0d3259c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\jbl.png",
       "PackagePath": "staticwebassets\\images\\HiFis\\jbl.png"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\lg.jpg",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\lg.jpg",
       "PackagePath": "staticwebassets\\images\\HiFis\\lg.jpg"
     },
     {
-      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\samsung.jpg",
+      "Id": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\samsung.jpg",
       "PackagePath": "staticwebassets\\images\\HiFis\\samsung.jpg"
     },
     {

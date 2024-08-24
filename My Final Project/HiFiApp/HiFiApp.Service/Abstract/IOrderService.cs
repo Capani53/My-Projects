@@ -10,8 +10,8 @@ namespace HiFiApp.Service.Abstract
 {
     public interface IOrderService
     {
-        Task<Response<NoContent>> CreateAsync(OrderDto orderDto);
+        Task<Response<int>> CreateAsync(OrderDto orderDto);
         Task<Response<OrderDto>> GetOrderAsync(int orderId);
-        Task<Response<List<OrderDto>>> GetAllOrdersAsync(string? userId=null);
+        Task<Response<List<OrderDto>>> GetOrdersAsync(string? userId=null);
     }
 }

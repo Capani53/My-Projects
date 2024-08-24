@@ -22,9 +22,10 @@ namespace HiFiApp.Data.Concrete.EfCore.Configs
             new Category
             {
                 Id = 1,
-                Name = "Home Theathre",
-                Description = "HiFi Home Teathre",
+                Name = "Home Theater",
+                Description = "HiFi Home Theater",
                 IsHome = true,
+                ImageUrl = "images/Categories/category-1.png",
             },
             new Category
             {
@@ -32,14 +33,15 @@ namespace HiFiApp.Data.Concrete.EfCore.Configs
                 Name = "Soundbars",
                 Description = "HiFi soundbar",
                 IsHome = true,
+                ImageUrl = "images/Categories/category-2.jpg",
             },
             new Category
             {
                 Id = 3,
                 Name = "Headphones",
-                Description = "HiFi Headphone",
+                Description = "HiFi Headphones",
                 IsHome = true,
-                
+                ImageUrl = "images/Categories/category-3.jpg",
             });
         }
     }

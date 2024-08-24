@@ -14,5 +14,6 @@ namespace HiFiApp.Shared.Dtos
         public string Name { get; set; }
         public bool IsHome { get; set; }
         public int CountOfHiFi { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

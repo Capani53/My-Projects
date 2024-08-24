@@ -44,7 +44,7 @@ namespace HiFiApp.Api.Controllers
         [HttpGet("getall/{userId?}")]
         public async Task<IActionResult> GetOrder(string userId=null)
         {
-            var response = await _orderService.GetAllOrdersAsync(userId);
+            var response = await _orderService.GetOrdersAsync(userId);
             if (!response.IsSucceeded)
             {
                 return NotFound(JsonSerializer.Serialize(response));

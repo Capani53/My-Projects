@@ -51,10 +51,8 @@ namespace HiFiAppClient.Areas.Admin.Models
 
         [JsonPropertyName("categoryIds")]
         public List<int> CategoryIds { get; set; }
-
         [JsonPropertyName("brandId")]
         public int BrandId { get; set; }
-
         public List<CategoryModel> CategoryList { get; set; }
         public List<SelectListItem> BrandList { get; set; }
     }

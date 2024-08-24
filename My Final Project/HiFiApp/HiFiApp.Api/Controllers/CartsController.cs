@@ -20,7 +20,7 @@ namespace HiFiApp.Api.Controllers
             _cartItemService=cartItemService;
         }
 
-        [HttpGet("initialize/{userId}")]
+        [HttpPost("initialize/{userId}")]
         public async Task<IActionResult> Initialize(string userId)
         {
             var response = await _cartService.InitializeCartAsync(userId);
@@ -42,7 +42,7 @@ namespace HiFiApp.Api.Controllers
             return Ok(JsonSerializer.Serialize(response));
         }
 
-        [HttpPost]
+        [HttpPost("addtocart")]
         public async Task<IActionResult> AddToCart(AddToCartDto addToCartDto)
         {
             var response = await _cartItemService.AddToCartAsync(addToCartDto);
@@ -53,10 +53,10 @@ namespace HiFiApp.Api.Controllers
             return Ok(JsonSerializer.Serialize(response));
         }
 
-        [HttpGet("deleteitem/{itemId}")]
-        public async Task<IActionResult> DeleteItem(int itemId)
+        [HttpDelete("deleteitem/{cartitemId}")]
+        public async Task<IActionResult> DeleteItem(int cartitemId)
         {
-            var response = await _cartItemService.DeleteItemFromCartAsync(itemId);
+            var response = await _cartItemService.DeleteItemFromCartAsync(cartitemId);
             if (!response.IsSucceeded)
             {
                 return NotFound(JsonSerializer.Serialize(response));
@@ -64,7 +64,7 @@ namespace HiFiApp.Api.Controllers
             return Ok(JsonSerializer.Serialize(response));
         }
 
-        [HttpGet("clear/{userId}")]
+        [HttpDelete("clear/{userId}")]
         public async Task<IActionResult> ClearCart(string userId)
         {
             var response = await _cartItemService.ClearCartAsync(userId);

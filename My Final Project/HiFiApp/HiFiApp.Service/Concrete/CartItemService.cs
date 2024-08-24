@@ -44,7 +44,7 @@ namespace HiFiApp.Service.Concrete
             }
             else
             {
-                cart.CartItems[index].Quantity+=addToCartDto.Quantity;
+                cart.CartItems[index].Quantity=addToCartDto.Quantity;
             }
             await _cartRepository.UpdateAsync(cart);
             return Response<NoContent>.Success(204);
@@ -52,7 +52,7 @@ namespace HiFiApp.Service.Concrete
 
         public async Task<Response<NoContent>> ChangeQuantityAsync(int cartItemId, int quantity)
         {
-            CartItem cartItem = await _cartItemRepository.GetByIdAsync(cartItemId);
+            var cartItem = await _cartItemRepository.GetByIdAsync(cartItemId);
             cartItem.Quantity= quantity;
             await _cartItemRepository.UpdateAsync(cartItem);
             return Response<NoContent>.Success(204);
@@ -60,7 +60,7 @@ namespace HiFiApp.Service.Concrete
 
         public async Task<Response<NoContent>> ClearCartAsync(string userId)
         {
-            Cart cart = await _cartRepository.GetCartByUserIdAsync(userId);
+            var cart = await _cartRepository.GetCartByUserIdAsync(userId);
             cart.CartItems = new List<CartItem>();
             await _cartRepository.UpdateAsync(cart);
             return Response<NoContent>.Success(200);
@@ -68,7 +68,7 @@ namespace HiFiApp.Service.Concrete
 
         public async Task<Response<NoContent>> DeleteItemFromCartAsync(int cartItemId)
         {
-            CartItem cartItem = await _cartItemRepository.GetByIdAsync(cartItemId);
+            var cartItem = await _cartItemRepository.GetByIdAsync(cartItemId);
             await _cartItemRepository.DeleteAsync(cartItem);
             return Response<NoContent>.Success(200);
         }

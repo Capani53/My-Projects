@@ -9,7 +9,7 @@ namespace HiFiApp.Entity.Concrete
     public class CartItem
     {
         public int Id { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }= DateTime.Now;
         public int HiFiId { get; set; }
         public HiFi HiFi { get; set; }
         public int CartId { get; set; }

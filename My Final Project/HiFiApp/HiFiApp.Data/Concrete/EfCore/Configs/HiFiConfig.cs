@@ -26,7 +26,7 @@ namespace HiFiApp.Data.Concrete.EfCore.Configs
                 Id = 1,
                 Name = "LG HT-1000EV",
                 Properties = "DTS, Dolby Atmos, Bluetooth",
-                Description = "HiFi Home Teathre",
+                Description = "HiFi Home Theater",
                 ImageUrl = "images/HiFis/lg.jpg",
                 Stock = 200,
                 Price = 30000,

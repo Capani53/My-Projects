@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HiFiApp.Service.Abstract
-{
+{   
     public interface ICartService
     {
         Task<Response<NoContent>> InitializeCartAsync(string userId);

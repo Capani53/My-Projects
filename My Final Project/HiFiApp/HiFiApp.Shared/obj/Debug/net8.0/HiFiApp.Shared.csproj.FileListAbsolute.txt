@@ -21,3 +21,14 @@ C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Shared\obj\D
 C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\refint\HiFiApp.Shared.dll
 C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.pdb
 C:\Users\alica\OneDrive\Masaüstü\My Final Project\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\ref\HiFiApp.Shared.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\bin\Debug\net8.0\HiFiApp.Shared.deps.json
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\bin\Debug\net8.0\HiFiApp.Shared.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\bin\Debug\net8.0\HiFiApp.Shared.pdb
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.AssemblyInfoInputs.cache
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.AssemblyInfo.cs
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\refint\HiFiApp.Shared.dll
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.pdb
+C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\ref\HiFiApp.Shared.dll

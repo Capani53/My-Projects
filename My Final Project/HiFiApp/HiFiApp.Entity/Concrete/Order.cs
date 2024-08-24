@@ -9,7 +9,7 @@ namespace HiFiApp.Entity.Concrete
     public class Order
     {
         public int Id { get; set; }
-        public DateTime OrderDate { get; set; }
+        public DateTime OrderDate { get; set; }= DateTime.Now;
         public string UserId { get; set; }
         public List<OrderItem> OrderItems { get; set; }
     }

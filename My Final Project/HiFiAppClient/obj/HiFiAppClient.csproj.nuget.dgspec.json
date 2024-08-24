@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiAppClient\\HiFiAppClient.csproj": {}
+    "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiAppClient\\HiFiAppClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiAppClient\\HiFiAppClient.csproj": {
+    "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiAppClient\\HiFiAppClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiAppClient\\HiFiAppClient.csproj",
+        "projectUniqueName": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiAppClient\\HiFiAppClient.csproj",
         "projectName": "HiFiAppClient",
-        "projectPath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiAppClient\\HiFiAppClient.csproj",
+        "projectPath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiAppClient\\HiFiAppClient.csproj",
         "packagesPath": "C:\\Users\\alica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiAppClient\\obj\\",
+        "outputPath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiAppClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alica\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,30 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.3, )"

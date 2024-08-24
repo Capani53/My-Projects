@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using HiFiAppClient.Areas.Admin.Models;
+using Newtonsoft.Json;
 
 namespace HiFiAppClient.Areas.Admin.Data
 {
@@ -26,5 +27,13 @@ namespace HiFiAppClient.Areas.Admin.Data
             }
             return rootCategories.Data;
         }
+
+        public static async Task Delete(int id)
+        {
+            using (var httpClient = new HttpClient())
+            {
+                HttpResponseMessage response = await httpClient.DeleteAsync($"http://localhost:5500/api/Category/{id}");
+            }
+        }       
     }
 }

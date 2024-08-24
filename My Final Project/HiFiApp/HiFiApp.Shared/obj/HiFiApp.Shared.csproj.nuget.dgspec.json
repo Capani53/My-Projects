@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj": {}
+    "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj": {
+    "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj",
         "projectName": "HiFiApp.Shared",
-        "projectPath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj",
+        "projectPath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj",
         "packagesPath": "C:\\Users\\alica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\My Final Project\\HiFiApp\\HiFiApp.Shared\\obj\\",
+        "outputPath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiApp\\HiFiApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alica\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -20,7 +20,7 @@ namespace HiFiAppClient.Models
         [JsonPropertyName("CountOfHiFi")]
         public int CountOfHiFi { get; set; }
 
-        //[JsonPropertyName("ImageUrl")]
-        //public string ImageUrl { get; set; }
+        [JsonPropertyName("ImageUrl")]
+        public string ImageUrl { get; set; }
     }
 }

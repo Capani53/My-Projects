@@ -23,22 +23,25 @@ namespace HiFiApp.Service.Concrete
             _mapper=mapper;
         }
 
-        public async Task<Response<NoContent>> CreateAsync(OrderDto orderDto)
+        public async Task<Response<int>> CreateAsync(OrderDto orderDto)
         {
-            await _orderRepository.CreateAsync(_mapper.Map<Order>(orderDto));
-            return Response<NoContent>.Success(201);
+            var order = _mapper.Map<Order>(orderDto);
+            await _orderRepository.CreateAsync(order);
+            return Response<int>.Success(order.Id,201);
         }
 
-        public async Task<Response<List<OrderDto>>> GetAllOrdersAsync(string? userId = null)
+        public async Task<Response<List<OrderDto>>> GetOrdersAsync(string? userId = null)
         {
             var orders = await _orderRepository.GetAllOrdersAsync(userId);
-            return Response<List<OrderDto>>.Success(_mapper.Map<List<OrderDto>>(orders),200);
+            var orderDtoList = _mapper.Map<List<OrderDto>>(orders);
+            return Response<List<OrderDto>>.Success(orderDtoList, 200);
         }
 
         public async Task<Response<OrderDto>> GetOrderAsync(int orderId)
         {
             var order = await _orderRepository.GetOrderAsync(orderId);
-            return Response<OrderDto>.Success(_mapper.Map<OrderDto>(order),200);
+            var orderDto = _mapper.Map<OrderDto>(order);
+            return Response<OrderDto>.Success(orderDto,200);
         }
     }
 }
