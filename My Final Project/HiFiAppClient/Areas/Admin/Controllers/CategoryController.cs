@@ -1,9 +1,13 @@
 ﻿using HiFiAppClient.Areas.Admin.Data;
 using HiFiAppClient.Areas.Admin.Models;
+using HiFiAppClient.Extensions;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -29,7 +33,9 @@ namespace HiFiAppClient.Areas.Admin.Controllers
             }
             return View(rootCategories.Data);
         }
-            public async Task<IActionResult> Delete(int id)
+
+        
+        public async Task<IActionResult> Delete(int id)
             {
                 await CategoryRepository.Delete(id);
                 return RedirectToAction("Index");

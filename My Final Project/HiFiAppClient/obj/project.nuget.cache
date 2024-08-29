@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WrzJMdhkOmQ=",
+  "dgSpecHash": "n7NZSKwV6oM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alica\\OneDrive\\Masaüstü\\Son Orjinal Hali Yedek\\HiFiAppClient\\HiFiAppClient.csproj",
+  "projectFilePath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\HiFiAppClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alica\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\alica\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

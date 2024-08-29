@@ -17,167 +17,167 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HiFiAppClient
 build_property.RootNamespace = HiFiAppClient
-build_property.ProjectDir = C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiAppClient\
+build_property.ProjectDir = C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiAppClient\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiAppClient
+build_property.MSBuildProjectDirectory = C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiAppClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Category/Index.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/HiFi/Create.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/HiFi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGlGaVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/HiFi/Index.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/HiFi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGlGaVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/HiFi/Update.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/HiFi/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGlGaVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_DataTablesCssPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_DataTablesCssPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzQ3NzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_DataTablesJsPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_DataTablesJsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzSnNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_FooterPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_LeftMenuPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_LeftMenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MZWZ0TWVudVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_PreLoaderPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_PreLoaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9QcmVMb2FkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_ScriptsPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_ScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_SideBarPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_SideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TaWRlQmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_StylesPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_StylesPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TdHlsZXNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/Shared/_TopMenuPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/Shared/_TopMenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Ub3BNZW51UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Cart/Index.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Home/Index.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/Error.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_BannerPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_BannerPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYW5uZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_CategoriesPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_CategoriesPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yaWVzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_DiscountPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_DiscountPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EaXNjb3VudFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_FooterPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_HeaderPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_HiFiPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_HiFiPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IaUZpUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_InstagramPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_InstagramPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbnN0YWdyYW1QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_MobileMenuPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_MobileMenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2JpbGVNZW51UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_PreLoaderPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_PreLoaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QcmVMb2FkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_SearchPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_SearchPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_ServicesPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_ServicesPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZXJ2aWNlc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_TopMenuPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_TopMenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BNZW51UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_TrendPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_TrendPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UcmVuZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/_ViewImports.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/_ViewStart.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alica/OneDrive/Masaüstü/Son Orjinal Hali Yedek/HiFiAppClient/Views/Shared/_Layout.cshtml]
+[C:/Users/alica/OneDrive/Belgeler/GitHub/My-Projects/My Final Project/HiFiAppClient/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-f7v9i0lokg

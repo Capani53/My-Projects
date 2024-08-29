@@ -30,11 +30,11 @@
                                 <thead>
                                     <tr>
                                         <th>Id</th>
+                                        <th>Resim</th>
                                         <th>Kategori Adı</th>                                        
                                         <th>Anasayfa</th>
                                         <th>Stok</th>
-                                        <th>Açıklama</th>
-                                        <th>Resim</th>
+                                        <th>Açıklama</th>                                        
                                         <th>#</th>                                        
                                     </tr>
                                 </thead>
@@ -42,14 +42,14 @@
                                     @foreach (var category in Model)
                                     {
                                         <tr>
-                                            <td>@category.Id</td>                                            
-                                            <td>@category.Name</td>
-                                            <td>@category.IsHome</td>
-                                            <td>@category.CountOfHiFi</td>
-                                            <td>@category.Description</td>
+                                            <td>@category.Id</td>
                                             <td>
                                                 <img src="http://localhost:5500/@category.ImageUrl" width="25" />
                                             </td>
+                                            <td>@category.Name</td>
+                                            <td>@category.IsHome</td>
+                                            <td>@category.CountOfHiFi</td>
+                                            <td>@category.Description</td>                                            
                                             <td>
                                                 <a class="btn btn-info btn-sm"
                                                    asp-area="Admin"

@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HiFiAppClient.Data
 {
-    public class AppDbContext : IdentityDbContext<AppUser, AppRole, string>
+    public class AppDbContext: IdentityDbContext<AppUser, AppRole, string>
     {
-        public AppDbContext(DbContextOptions options): base(options)
+        public AppDbContext(DbContextOptions options) : base(options)
         {
-            
+
         }
     }
 }

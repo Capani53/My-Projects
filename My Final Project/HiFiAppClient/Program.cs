@@ -28,6 +28,8 @@ builder.Services.ConfigureApplicationCookie(options =>
     };
 });
 
+builder.Services.AddAuthentication();
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
@@ -41,6 +43,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapAreaControllerRoute(
