@@ -26,7 +26,6 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="row">
-
                                     <div class="col-md-9">
                                         <div class="row">
                                             <div class="col-md-8">
@@ -45,14 +44,14 @@
                                                         data-label-text="Anasayfa" asp-for="IsHome">
                                                 </div>
                                             </div>                                            
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label asp-for="Price"></label>
                                                     <input asp-for="Price" class="form-control" />
                                                     <span class="text-danger" asp-validation-for="Price"></span>
                                                 </div>
                                             </div>
-                                            <div class="col-md-2">
+                                            <div class="col-md-5">
                                                 <div class="form-group">
                                                     <label asp-for="Stock"></label>
                                                     <input asp-for="Stock" class="form-control" />
@@ -93,15 +92,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
-                                        <div>
-                                            <div class="form-group">
-                                                <label>Yazar</label>
-                                                <select class="form-control" asp-items="@Model.BrandList"
-                                                    asp-for="BrandId">
-                                                </select>
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">                                       
                                         <div>
                                             <label>Kategoriler</label>
                                             @foreach (var category in Model.CategoryList)
@@ -115,10 +106,7 @@
                                             }
                                             <span class="text-danger">@ViewBag.CategoryErrorMessage</span>
                                         </div>
-
-
                                     </div>
-
                                 </div>
                             </div>
                             <!-- /.card-body -->

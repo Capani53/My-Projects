@@ -34,6 +34,23 @@ namespace HiFiAppClient.Areas.Admin.Data
             {
                 HttpResponseMessage response = await httpClient.DeleteAsync($"http://localhost:5500/api/Category/{id}");
             }
-        }       
+        }
+        public static async Task<CategoryModel> GetByIdAsync(int id)
+        {
+            var rootCategory = new Root<CategoryModel>();
+            using (var httpClient = new HttpClient())
+            {
+                using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync($"http://localhost:5500/api/Category/{id}"))
+                {
+                    if (!httpResponseMessage.IsSuccessStatusCode)
+                    {
+                        return null;
+                    }
+                    string contentResponse = await httpResponseMessage.Content.ReadAsStringAsync();
+                    rootCategory = JsonConvert.DeserializeObject<Root<CategoryModel>>(contentResponse);
+                }
+            }
+            return rootCategory.Data;
+        }
     }
 }

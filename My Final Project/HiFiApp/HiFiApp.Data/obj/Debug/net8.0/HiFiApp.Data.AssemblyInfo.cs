@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HiFiApp.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f972656bd90fdf2452504cd68d26bd2112f7774a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e34ee05667a3d3ebd72f02ec9190fb5fafebedb")]
 [assembly: System.Reflection.AssemblyProductAttribute("HiFiApp.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HiFiApp.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

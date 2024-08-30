@@ -1,0 +1,111 @@
+﻿@model EditCategoryModel
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <form asp-area="Admin" asp-controller="Category" asp-action="Update" method="post" enctype="multipart/form-data">
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0">Kategori Güncelle</h1>
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-end">
+                        <a class="btn btn-danger btn-sm mr-2" asp-area="Admin" asp-controller="Category" asp-action="Delete" asp-route-id="@Model.Id">Sil</a>
+                        <input class="btn btn-success btn-sm" value="Değişiklikleri Kaydet" type="submit" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">                                    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label asp-for="Name"></label>
+                                            <input asp-for="Name" class="form-control" />
+                                            <span class="text-danger" asp-validation-for="Name"></span>
+                                        </div>
+                                    </div>                                                                                     
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label asp-for="IsHome"></label>
+                                            <input type="checkbox" class="form-check-input" asp-for="IsHome" data-bootstrap-switch />
+                                            <span class="text-danger" asp-validation-for="IsHome"></span>
+                                        </div>
+                                    </div>                                   
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label asp-for="IsActive"></label>
+                                            <input type="checkbox" class="form-check-input" asp-for="IsActive" data-bootstrap-switch />
+                                            <span class="text-danger" asp-validation-for="IsActive"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label asp-for="Description"></label>
+                                            <textarea class="form-control" asp-for="Description"></textarea>
+                                            <span class="text-danger" asp-validation-for="Description"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="image">Resim</label>
+                                            <div class="custom-file">
+                                                <input type="file" class="custom-file-input" id="image" name="image">
+                                                <label class="custom-file-label" for="image" id="image-text">Resim seç</label>
+                                                <span class="text-danger">@ViewBag.ImageErrorMessage</span>
+                                            </div>
+                                            <div class="mt-2">
+                                                <img class="img-thumbnail img-fluid" id="image-preview" style="height: 200px;" src="http://localhost:5500/@Model.ImageUrl" />
+                                            </div>
+                                            <input type="hidden" asp-for="ImageUrl" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.content -->
+    </form>
+</div>
+<!-- /.content-wrapper -->
+@section Css {    
+    <link rel="stylesheet" href="~/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+}
+
+@section Js {    
+    <script src="~/admin/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+
+    <script>
+        $(function () {
+            const oldImageUrl = $('#image-preview').attr('src');
+            let imageUrl = oldImageUrl;
+
+            
+            $("input[data-bootstrap-switch]").each(function () {
+                $(this).bootstrapSwitch('state', $(this).prop('checked'));
+            });
+
+            
+            $('#image').on('change', function (e) {
+                const selectedFiles = e.target.files;
+                if (selectedFiles[0] === undefined) {
+                    $('#image-preview').attr('src', oldImageUrl);
+                } else {
+                    $('#image-preview').addClass('d-block');
+                    imageUrl = window.URL.createObjectURL(selectedFiles[0]);
+                    $('#image-preview').attr('src', imageUrl);
+                    $('#image-text').text(imageUrl);
+                }
+            });
+        });
+    </script>
+}

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7AE5D591-24D6-45E1-A261-CEA8A6053025}|HiFiApp.Service\\HiFiApp.Service.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiapp\\hifiapp.service\\abstract\\ihifiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5D591-24D6-45E1-A261-CEA8A6053025}|HiFiApp.Service\\HiFiApp.Service.csproj|solutionrelative:hifiapp.service\\abstract\\ihifiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96136973-10DF-46C9-AC75-B68A913C51C7}|HiFiApp.Entity\\HiFiApp.Entity.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiapp\\hifiapp.entity\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96136973-10DF-46C9-AC75-B68A913C51C7}|HiFiApp.Entity\\HiFiApp.Entity.csproj|solutionrelative:hifiapp.entity\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,19 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IHiFiService.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\Abstract\\IHiFiService.cs",
+              "RelativeDocumentMoniker": "HiFiApp.Service\\Abstract\\IHiFiService.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Service\\Abstract\\IHiFiService.cs",
+              "RelativeToolTip": "HiFiApp.Service\\Abstract\\IHiFiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:16:37.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Entity\\Concrete\\User.cs",
               "RelativeDocumentMoniker": "HiFiApp.Entity\\Concrete\\User.cs",
