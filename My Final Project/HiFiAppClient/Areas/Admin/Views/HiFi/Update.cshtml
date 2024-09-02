@@ -143,9 +143,7 @@
             $('#Properties').summernote({
                 height: 200
             });
-            $('#Description').summernote({
-                height: 200
-            });
+            
             $("input[data-bootstrap-switch]").each(function () {
                 $(this).bootstrapSwitch('state', $(this).prop('checked'));
             });
@@ -159,9 +157,7 @@
                     imageUrl=window.URL.createObjectURL(selectedFiles[0])
                     $('#image-preview').attr('src', imageUrl);
                     $('#image-text').text(imageUrl);
-                }
-
-                
+                }                
             });
         });
 

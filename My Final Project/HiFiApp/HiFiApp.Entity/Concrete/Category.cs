@@ -14,7 +14,7 @@ namespace HiFiApp.Entity.Concrete
         public bool IsActive { get; set; }=true;
         public string Name { get; set; }
         public string Description { get; set; }
-        public bool IsHome { get; set; }
+        public bool IsHome { get; set; }        
         public string ImageUrl { get; set; }
         public List<HiFiCategory> HiFiCategories { get; set; }
     }

@@ -59,3 +59,5 @@ C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\b
 C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\bin\Debug\net8.0\HiFiApp.Entity.pdb
 C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp..B8E7DE99.Up2Date
 C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\ref\HiFiApp.Data.dll
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Data\bin\Debug\net8.0\HiFiApp.Data.runtimeconfig.json
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Data\obj\Debug\net8.0\HiFiApp.Data.genruntimeconfig.cache

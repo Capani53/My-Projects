@@ -41,7 +41,7 @@ namespace HiFiApp.Data.Concrete.EfCore.Configs
                 Name = "Headphones",
                 Description = "HiFi Headphones",
                 IsHome = true,
-                ImageUrl = "images/Categories/category-3.jpg",
+                ImageUrl = "images/Categories/category-3.jpg"
             });
         }
     }

@@ -131,7 +131,7 @@ namespace HiFiAppClient.Areas.Admin.Controllers
 
                     var serializeModel = JsonConvert.SerializeObject(editCategoryModel);
                     StringContent stringContent = new StringContent(serializeModel, Encoding.UTF8, "application/json");
-                    HttpResponseMessage result = await httpClient.PutAsync("http://localhost:5500/api/Category", stringContent);
+                    HttpResponseMessage result = await httpClient.PutAsync("http://localhost:5500/api/Categories", stringContent);
                     if (result.IsSuccessStatusCode)
                     {
                         return RedirectToAction("Index");
