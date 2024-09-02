@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiappclient\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiappclient\\areas\\admin\\controllers\\hificontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:areas\\admin\\controllers\\hificontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiappclient\\areas\\admin\\views\\hifi\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:areas\\admin\\views\\hifi\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|c:\\users\\alica\\onedrive\\belgeler\\github\\my-projects\\my final project\\hifiappclient\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BF990B-7347-4249-A789-85A2328C5CE8}|HiFiAppClient.csproj|solutionrelative:areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HiFiController.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Controllers\\HiFiController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HiFiController.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Controllers\\HiFiController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HiFiController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAADAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T19:49:12.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Views\\HiFi\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\HiFi\\Update.cshtml",
-              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Views\\HiFi\\Update.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\HiFi\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T18:11:06.92Z",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAqwEIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T19:34:06.778Z",
               "EditorCaption": ""
             },
             {
@@ -40,19 +53,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "ToolTip": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAF0AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T18:11:19.566Z",
-              "EditorCaption": ""
             }
           ]
         }

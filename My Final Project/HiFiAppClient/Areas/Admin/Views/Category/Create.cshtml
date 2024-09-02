@@ -1,7 +1,7 @@
 ﻿@model AddCategoryModel
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <form asp-area="Admin" asp-controller="HiFi" asp-action="Create" method="post" enctype="multipart/form-data">
+    <form asp-area="Admin" asp-controller="Category" asp-action="Create" method="post" enctype="multipart/form-data">
         <div class="content-header">
             <div class="container-fluid">
                 <div class="row mb-2">
@@ -70,8 +70,7 @@
                                                     <textarea class="form-control" asp-for="Description"></textarea>
                                                     <span class="text-danger" asp-validation-for="Description"></span>
                                                 </div>
-                                            </div>
-                                            
+                                            </div>                                            
                                         </div>
                                     </div>                                    
                             </div>

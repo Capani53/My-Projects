@@ -29,6 +29,5 @@ namespace HiFiAppClient.Areas.Admin.Models
 
         [JsonPropertyName("imageUrl")]
         public string ImageUrl { get; set; }      
-        
     }
 }

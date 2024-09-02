@@ -55,7 +55,7 @@ namespace HiFiAppClient.Areas.Admin.Controllers
                         var imageContent = new MultipartFormDataContent();
                         byte[] bytes = stream.ToByteArray();
                         imageContent.Add(new ByteArrayContent(bytes), "file", image.FileName);
-                        HttpResponseMessage responseMessage = await httpClient.PostAsync("http://localhost:5500/api/Category/addimage", imageContent);
+                        HttpResponseMessage responseMessage = await httpClient.PostAsync("http://localhost:5500/api/Categories/addimage", imageContent);
                         var responseString = await responseMessage.Content.ReadAsStringAsync();
                         var response = JsonConvert.DeserializeObject<Root<ImageModel>>(responseString);
                         if (response.IsSucceeded)
@@ -71,7 +71,7 @@ namespace HiFiAppClient.Areas.Admin.Controllers
                     addCategoryModel.ImageUrl = imageUrl;
                     var serializeModel = JsonConvert.SerializeObject(addCategoryModel);
                     var stringContent = new StringContent(serializeModel, Encoding.UTF8, "application/json");
-                    var result = await httpClient.PostAsync("http://localhost:5500/api/Category", stringContent);
+                    var result = await httpClient.PostAsync("http://localhost:5500/api/Categories", stringContent);
                     if (result.IsSuccessStatusCode)
                     {
                         return RedirectToAction("Index");
@@ -114,7 +114,7 @@ namespace HiFiAppClient.Areas.Admin.Controllers
                             var imageContent = new MultipartFormDataContent();
                             byte[] bytes = stream.ToByteArray();
                             imageContent.Add(new ByteArrayContent(bytes), "file", image.FileName);
-                            HttpResponseMessage responseMessage = await httpClient.PostAsync("http://localhost:5500/api/Category/addimage", imageContent);
+                            HttpResponseMessage responseMessage = await httpClient.PostAsync("http://localhost:5500/api/Categories/addimage", imageContent);
                             var responseString = await responseMessage.Content.ReadAsStringAsync();
                             var response = JsonConvert.DeserializeObject<Root<ImageModel>>(responseString);
                             if (response.IsSucceeded)

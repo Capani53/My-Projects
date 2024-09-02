@@ -33,7 +33,7 @@
                                                     <input asp-for="Name" class="form-control" />
                                                     <span class="text-danger" asp-validation-for="Name"></span>
                                                 </div>
-                                            </div>                                                                              
+                                            </div>
                                             <div class="col-md-2">
                                                 <div class="form-group">
                                                     <label asp-for="Price"></label>
@@ -79,14 +79,16 @@
 
                                                     <div class="custom-file">
                                                         <input type="file" class="custom-file-input" id="image"
-                                                            name="image">
-                                                        <label class="custom-file-label" for="customFile">Resim
-                                                            seç</label>
+                                                               name="image">
+                                                        <label class="custom-file-label" for="customFile">
+                                                            Resim
+                                                            seç
+                                                        </label>
                                                         <span class="text-danger">@ViewBag.ImageErrorMessage</span>
                                                     </div>
                                                     <div class="mt-2">
                                                         <img class="img-thumbnail img-fluid d-none" id="image-preview"
-                                                            style="height: 200px;" />
+                                                             style="height: 200px;" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -97,7 +99,7 @@
                                             <div class="form-group">
                                                 <label>Marka</label>
                                                 <select class="form-control" asp-items="@Model.BrandList"
-                                                    asp-for="BrandId">
+                                                        asp-for="BrandId">
                                                 </select>
                                             </div>
                                         </div>
@@ -107,7 +109,7 @@
                                             {
                                                 <div class="icheck-primary">
                                                     <input type="checkbox" id="category_@category.Id" name="CategoryIds"
-                                                        value="@category.Id">
+                                                           value="@category.Id">
                                                     <label for="category_@category.Id">@category.Name</label>
                                                 </div>
                                             }
@@ -130,7 +132,6 @@
     </form>
 </div>
 <!-- /.content-wrapper -->
-
 @section Css {
     <!-- iCheck -->
     <link rel="stylesheet" href="~/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">

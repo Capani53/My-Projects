@@ -33,9 +33,9 @@ namespace HiFiApp.Api.Controllers
         public async Task<IActionResult> GetAll(){
             var response = await _categoryService.GetAllAsync();
             if(!response.IsSucceeded){
-                return NotFound(response);
+                return NotFound(JsonSerializer.Serialize(response));
             }
-            return Ok(response);
+            return Ok(JsonSerializer.Serialize(response));
         }
 
         [HttpGet("active")]
