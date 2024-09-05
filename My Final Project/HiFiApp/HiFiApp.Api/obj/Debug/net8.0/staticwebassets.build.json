@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RQyBpsSFtabLlQ4MAi6pbU6ZJs2DQC508qaSC7UfCbw=",
+  "Hash": "M6zthR1fzA0sbKP7NCYxvpTI20nnGLY1Bdf9Cet7TEY=",
   "Source": "HiFiApp.Api",
   "BasePath": "_content/HiFiApp.Api",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\HiFis\\23854f26-fa82-4727-8309-816762961007.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\4785f457-e67b-43c6-ae17-5f97dd04d342.jpg",
+      "SourceId": "HiFiApp.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
+      "BasePath": "_content/HiFiApp.Api",
+      "RelativePath": "images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HiFis\\4785f457-e67b-43c6-ae17-5f97dd04d342.jpg"
     },
     {
       "Identity": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\488419fe-6a3d-4742-88d7-016e0d3259c3.jpg",
