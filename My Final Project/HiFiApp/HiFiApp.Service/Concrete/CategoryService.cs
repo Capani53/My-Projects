@@ -9,6 +9,7 @@ using HiFiApp.Entity.Concrete;
 using HiFiApp.Service.Abstract;
 using HiFiApp.Shared.Dtos;
 using HiFiApp.Shared.ResponseDtos;
+using Microsoft.EntityFrameworkCore;
 
 namespace HiFiApp.Service.Concrete
 {
@@ -16,7 +17,7 @@ namespace HiFiApp.Service.Concrete
     {
         private readonly ICategoryRepository _categoryRepository;
         private readonly IHiFiRepository _hiFiRepository;
-        private readonly IMapper _mapper;
+        private readonly IMapper _mapper;        
 
         public CategoryService(ICategoryRepository categoryRepository, IMapper mapper, IHiFiRepository hiFiRepository)
         {
@@ -55,6 +56,10 @@ namespace HiFiApp.Service.Concrete
                 return Response<List<CategoryDto>>.Fail("Hiç aktif kategori bulunamadı",404);
             }
             var categoryDtoList=_mapper.Map<List<CategoryDto>>(categories);
+            foreach (var categoryDto in categoryDtoList)
+            {
+                categoryDto.CountOfHiFi = await _hiFiRepository.GetCount(categoryDto.Id);
+            }
             return Response<List<CategoryDto>>.Success(categoryDtoList,200);
         }
 
@@ -65,7 +70,11 @@ namespace HiFiApp.Service.Concrete
                 return Response<List<CategoryDto>>.Fail("Hiç kategori bulunamadı",404);
             }
             var categoryDtoList=_mapper.Map<List<CategoryDto>>(categories);
-            return Response<List<CategoryDto>>.Success(categoryDtoList,200);
+            foreach (var categoryDto in categoryDtoList)
+            {
+                categoryDto.CountOfHiFi = await _hiFiRepository.GetCount(categoryDto.Id);
+            }
+            return Response<List<CategoryDto>>.Success(categoryDtoList,200);            
         }
 
         public async Task<Response<CategoryDto>> GetByIdAsync(int id)
@@ -74,8 +83,10 @@ namespace HiFiApp.Service.Concrete
             if(category==null){
                 return Response<CategoryDto>.Fail("Bu id'li kategori bulunamadı", 404);
             }
+            var countOfHiFi = await _hiFiRepository.GetCount(id);
             CategoryDto categoryDto = _mapper.Map<CategoryDto>(category);
-            return Response<CategoryDto>.Success(categoryDto, 200);
+            categoryDto.CountOfHiFi = countOfHiFi;
+            return Response<CategoryDto>.Success(categoryDto, 200);            
         }
 
         public async Task<Response<List<CategoryDto>>> GetHomeCategoriesAsync()
