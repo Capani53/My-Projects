@@ -40,7 +40,7 @@ namespace HiFiAppClient.Areas.Admin.Data
             var rootCategory = new Root<CategoryModel>();
             using (var httpClient = new HttpClient())
             {
-                using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync($"http://localhost:5500/api/Category/{id}"))
+                using (HttpResponseMessage httpResponseMessage = await httpClient.GetAsync($"http://localhost:5500/api/Categories/{id}"))
                 {
                     if (!httpResponseMessage.IsSuccessStatusCode)
                     {
