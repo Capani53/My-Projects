@@ -1,0 +1,148 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Brands/JBL-logo.21co1b1814.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Brands\JBL-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"21co1b1814"},{"Name":"integrity","Value":"sha256-5g\u002ByzUeP\u002BvIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA="},{"Name":"label","Value":"_content/HiFiApp.Api/images/Brands/JBL-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2116"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00225g\u002ByzUeP\u002BvIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Brands/JBL-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Brands\JBL-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5g\u002ByzUeP\u002BvIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2116"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00225g\u002ByzUeP\u002BvIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Brands/LG-logo.9ba0w9r79f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Brands\LG-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9ba0w9r79f"},{"Name":"integrity","Value":"sha256-NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc="},{"Name":"label","Value":"_content/HiFiApp.Api/images/Brands/LG-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"94397"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Brands/LG-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Brands\LG-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"94397"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Brands/Samsung-logo.kdw8lmkyf3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Brands\Samsung-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdw8lmkyf3"},{"Name":"integrity","Value":"sha256-GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24="},{"Name":"label","Value":"_content/HiFiApp.Api/images/Brands/Samsung-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37502"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Brands/Samsung-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Brands\Samsung-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37502"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Categories/category-1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Categories\category-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NR\u002BN2ff1BfTAIKsTy9XKJGm\u002BhW4JiF7QxdaSHrNr1o4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1490781"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NR\u002BN2ff1BfTAIKsTy9XKJGm\u002BhW4JiF7QxdaSHrNr1o4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Categories/category-1.r46zvihjdl.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Categories\category-1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r46zvihjdl"},{"Name":"integrity","Value":"sha256-NR\u002BN2ff1BfTAIKsTy9XKJGm\u002BhW4JiF7QxdaSHrNr1o4="},{"Name":"label","Value":"_content/HiFiApp.Api/images/Categories/category-1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1490781"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NR\u002BN2ff1BfTAIKsTy9XKJGm\u002BhW4JiF7QxdaSHrNr1o4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Categories/category-2.cha854vijb.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Categories\category-2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cha854vijb"},{"Name":"integrity","Value":"sha256-8POMGm79Reb0XeYIsvEAuh10Bp\u002BH2OqjvwGxrVa2b3k="},{"Name":"label","Value":"_content/HiFiApp.Api/images/Categories/category-2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"142739"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228POMGm79Reb0XeYIsvEAuh10Bp\u002BH2OqjvwGxrVa2b3k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Categories/category-2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Categories\category-2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8POMGm79Reb0XeYIsvEAuh10Bp\u002BH2OqjvwGxrVa2b3k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"142739"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228POMGm79Reb0XeYIsvEAuh10Bp\u002BH2OqjvwGxrVa2b3k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Categories/category-3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Categories\category-3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R5W9aNvtRnFnuRI9UO37a\u002BjzceirpQvHVpFYJvTog4g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72904"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022R5W9aNvtRnFnuRI9UO37a\u002BjzceirpQvHVpFYJvTog4g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/Categories/category-3.viyiuyv6xn.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Categories\category-3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"viyiuyv6xn"},{"Name":"integrity","Value":"sha256-R5W9aNvtRnFnuRI9UO37a\u002BjzceirpQvHVpFYJvTog4g="},{"Name":"label","Value":"_content/HiFiApp.Api/images/Categories/category-3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72904"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022R5W9aNvtRnFnuRI9UO37a\u002BjzceirpQvHVpFYJvTog4g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/23854f26-fa82-4727-8309-816762961007.63lvsa351f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\23854f26-fa82-4727-8309-816762961007.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"63lvsa351f"},{"Name":"integrity","Value":"sha256-gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes="},{"Name":"label","Value":"_content/HiFiApp.Api/images/HiFis/23854f26-fa82-4727-8309-816762961007.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3237314"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/23854f26-fa82-4727-8309-816762961007.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\23854f26-fa82-4727-8309-816762961007.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3237314"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342.jg9chmbrnd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\4785f457-e67b-43c6-ae17-5f97dd04d342.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jg9chmbrnd"},{"Name":"integrity","Value":"sha256-HQxoGxVqsf\u002B\u002BvoFLAe3RK4ltmBVjzp3NH7C4PcBdi2A="},{"Name":"label","Value":"_content/HiFiApp.Api/images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1390750"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HQxoGxVqsf\u002B\u002BvoFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\4785f457-e67b-43c6-ae17-5f97dd04d342.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HQxoGxVqsf\u002B\u002BvoFLAe3RK4ltmBVjzp3NH7C4PcBdi2A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1390750"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HQxoGxVqsf\u002B\u002BvoFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/488419fe-6a3d-4742-88d7-016e0d3259c3.jg9chmbrnd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\488419fe-6a3d-4742-88d7-016e0d3259c3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jg9chmbrnd"},{"Name":"integrity","Value":"sha256-HQxoGxVqsf\u002B\u002BvoFLAe3RK4ltmBVjzp3NH7C4PcBdi2A="},{"Name":"label","Value":"_content/HiFiApp.Api/images/HiFis/488419fe-6a3d-4742-88d7-016e0d3259c3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1390750"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HQxoGxVqsf\u002B\u002BvoFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/488419fe-6a3d-4742-88d7-016e0d3259c3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\488419fe-6a3d-4742-88d7-016e0d3259c3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HQxoGxVqsf\u002B\u002BvoFLAe3RK4ltmBVjzp3NH7C4PcBdi2A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1390750"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HQxoGxVqsf\u002B\u002BvoFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/jbl.m6ezpdyj5m.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\jbl.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m6ezpdyj5m"},{"Name":"integrity","Value":"sha256-cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C\u002Bx1nLZRK/o="},{"Name":"label","Value":"_content/HiFiApp.Api/images/HiFis/jbl.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"382453"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C\u002Bx1nLZRK/o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/jbl.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\jbl.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C\u002Bx1nLZRK/o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"382453"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C\u002Bx1nLZRK/o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/lg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\lg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19162"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/lg.vw6bugcgpr.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\lg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vw6bugcgpr"},{"Name":"integrity","Value":"sha256-v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk="},{"Name":"label","Value":"_content/HiFiApp.Api/images/HiFis/lg.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19162"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/samsung.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\samsung.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Xd2naYrzwJ8agz9fPAib2zHmSZ\u002B7wyhwRXWyRDXsyrE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"80653"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Xd2naYrzwJ8agz9fPAib2zHmSZ\u002B7wyhwRXWyRDXsyrE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HiFiApp.Api/images/HiFis/samsung.xfup3d8r9n.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\HiFis\samsung.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xfup3d8r9n"},{"Name":"integrity","Value":"sha256-Xd2naYrzwJ8agz9fPAib2zHmSZ\u002B7wyhwRXWyRDXsyrE="},{"Name":"label","Value":"_content/HiFiApp.Api/images/HiFis/samsung.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"80653"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Xd2naYrzwJ8agz9fPAib2zHmSZ\u002B7wyhwRXWyRDXsyrE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 12:22:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M6zthR1fzA0sbKP7NCYxvpTI20nnGLY1Bdf9Cet7TEY=",
+  "Hash": "jzAPfwasdMEpdG7VcqG9LMjipMXuSmSAMpkuKPmveRI=",
   "Source": "HiFiApp.Api",
   "BasePath": "_content/HiFiApp.Api",
   "Mode": "Default",
@@ -22,15 +22,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/Brands/JBL-logo.png",
+      "RelativePath": "images/Brands/JBL-logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "21co1b1814",
+      "Integrity": "5g+yzUeP+vIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Brands\\JBL-logo.png"
@@ -41,15 +43,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/Brands/LG-logo.png",
+      "RelativePath": "images/Brands/LG-logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "9ba0w9r79f",
+      "Integrity": "NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Brands\\LG-logo.png"
@@ -60,15 +64,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/Brands/Samsung-logo.png",
+      "RelativePath": "images/Brands/Samsung-logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "kdw8lmkyf3",
+      "Integrity": "GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Brands\\Samsung-logo.png"
@@ -79,15 +85,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/Categories/category-1.png",
+      "RelativePath": "images/Categories/category-1#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "r46zvihjdl",
+      "Integrity": "NR+N2ff1BfTAIKsTy9XKJGm+hW4JiF7QxdaSHrNr1o4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Categories\\category-1.png"
@@ -98,15 +106,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/Categories/category-2.jpg",
+      "RelativePath": "images/Categories/category-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "cha854vijb",
+      "Integrity": "8POMGm79Reb0XeYIsvEAuh10Bp+H2OqjvwGxrVa2b3k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Categories\\category-2.jpg"
@@ -117,15 +127,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/Categories/category-3.jpg",
+      "RelativePath": "images/Categories/category-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "viyiuyv6xn",
+      "Integrity": "R5W9aNvtRnFnuRI9UO37a+jzceirpQvHVpFYJvTog4g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Categories\\category-3.jpg"
@@ -136,15 +148,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/HiFis/23854f26-fa82-4727-8309-816762961007.jpg",
+      "RelativePath": "images/HiFis/23854f26-fa82-4727-8309-816762961007#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "63lvsa351f",
+      "Integrity": "gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\HiFis\\23854f26-fa82-4727-8309-816762961007.jpg"
@@ -155,15 +169,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342.jpg",
+      "RelativePath": "images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "jg9chmbrnd",
+      "Integrity": "HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\HiFis\\4785f457-e67b-43c6-ae17-5f97dd04d342.jpg"
@@ -174,15 +190,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/HiFis/488419fe-6a3d-4742-88d7-016e0d3259c3.jpg",
+      "RelativePath": "images/HiFis/488419fe-6a3d-4742-88d7-016e0d3259c3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "jg9chmbrnd",
+      "Integrity": "HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\HiFis\\488419fe-6a3d-4742-88d7-016e0d3259c3.jpg"
@@ -193,15 +211,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/HiFis/jbl.png",
+      "RelativePath": "images/HiFis/jbl#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "m6ezpdyj5m",
+      "Integrity": "cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C+x1nLZRK/o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\HiFis\\jbl.png"
@@ -212,15 +232,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/HiFis/lg.jpg",
+      "RelativePath": "images/HiFis/lg#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "vw6bugcgpr",
+      "Integrity": "v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\HiFis\\lg.jpg"
@@ -231,18 +253,1006 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\",
       "BasePath": "_content/HiFiApp.Api",
-      "RelativePath": "images/HiFis/samsung.jpg",
+      "RelativePath": "images/HiFis/samsung#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xfup3d8r9n",
+      "Integrity": "Xd2naYrzwJ8agz9fPAib2zHmSZ+7wyhwRXWyRDXsyrE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\HiFis\\samsung.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/Brands/JBL-logo.21co1b1814.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\JBL-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5g+yzUeP+vIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "21co1b1814"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Brands/JBL-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5g+yzUeP+vIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA="
+        }
+      ]
+    },
+    {
+      "Route": "images/Brands/JBL-logo.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\JBL-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5g+yzUeP+vIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5g+yzUeP+vIYSaBfg4bVsY5mWfHvspp1FygyNVU0tCA="
+        }
+      ]
+    },
+    {
+      "Route": "images/Brands/LG-logo.9ba0w9r79f.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\LG-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ba0w9r79f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Brands/LG-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc="
+        }
+      ]
+    },
+    {
+      "Route": "images/Brands/LG-logo.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\LG-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NYizTrObafBdEsWi5nhoAqBJFQ9oZ2bVJkzai1YOFCc="
+        }
+      ]
+    },
+    {
+      "Route": "images/Brands/Samsung-logo.kdw8lmkyf3.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\Samsung-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kdw8lmkyf3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Brands/Samsung-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24="
+        }
+      ]
+    },
+    {
+      "Route": "images/Brands/Samsung-logo.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Brands\\Samsung-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJ0Y1lHRDZjfdZTBWox/M0t8hRrCnpXvtkNh2fuFs24="
+        }
+      ]
+    },
+    {
+      "Route": "images/Categories/category-1.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1490781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NR+N2ff1BfTAIKsTy9XKJGm+hW4JiF7QxdaSHrNr1o4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NR+N2ff1BfTAIKsTy9XKJGm+hW4JiF7QxdaSHrNr1o4="
+        }
+      ]
+    },
+    {
+      "Route": "images/Categories/category-1.r46zvihjdl.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1490781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NR+N2ff1BfTAIKsTy9XKJGm+hW4JiF7QxdaSHrNr1o4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r46zvihjdl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Categories/category-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NR+N2ff1BfTAIKsTy9XKJGm+hW4JiF7QxdaSHrNr1o4="
+        }
+      ]
+    },
+    {
+      "Route": "images/Categories/category-2.cha854vijb.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8POMGm79Reb0XeYIsvEAuh10Bp+H2OqjvwGxrVa2b3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cha854vijb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Categories/category-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8POMGm79Reb0XeYIsvEAuh10Bp+H2OqjvwGxrVa2b3k="
+        }
+      ]
+    },
+    {
+      "Route": "images/Categories/category-2.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8POMGm79Reb0XeYIsvEAuh10Bp+H2OqjvwGxrVa2b3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8POMGm79Reb0XeYIsvEAuh10Bp+H2OqjvwGxrVa2b3k="
+        }
+      ]
+    },
+    {
+      "Route": "images/Categories/category-3.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5W9aNvtRnFnuRI9UO37a+jzceirpQvHVpFYJvTog4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5W9aNvtRnFnuRI9UO37a+jzceirpQvHVpFYJvTog4g="
+        }
+      ]
+    },
+    {
+      "Route": "images/Categories/category-3.viyiuyv6xn.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\Categories\\category-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5W9aNvtRnFnuRI9UO37a+jzceirpQvHVpFYJvTog4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "viyiuyv6xn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Categories/category-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5W9aNvtRnFnuRI9UO37a+jzceirpQvHVpFYJvTog4g="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/23854f26-fa82-4727-8309-816762961007.63lvsa351f.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\23854f26-fa82-4727-8309-816762961007.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3237314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63lvsa351f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HiFis/23854f26-fa82-4727-8309-816762961007.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/23854f26-fa82-4727-8309-816762961007.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\23854f26-fa82-4727-8309-816762961007.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3237314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvAvd12pjRBQYFDzP8gw/VTXpAVOAuqXeEjIKzGoRes="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342.jg9chmbrnd.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\4785f457-e67b-43c6-ae17-5f97dd04d342.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1390750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jg9chmbrnd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/4785f457-e67b-43c6-ae17-5f97dd04d342.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\4785f457-e67b-43c6-ae17-5f97dd04d342.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1390750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/488419fe-6a3d-4742-88d7-016e0d3259c3.jg9chmbrnd.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\488419fe-6a3d-4742-88d7-016e0d3259c3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1390750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jg9chmbrnd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HiFis/488419fe-6a3d-4742-88d7-016e0d3259c3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/488419fe-6a3d-4742-88d7-016e0d3259c3.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\488419fe-6a3d-4742-88d7-016e0d3259c3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1390750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HQxoGxVqsf++voFLAe3RK4ltmBVjzp3NH7C4PcBdi2A="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/jbl.m6ezpdyj5m.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\jbl.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "382453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C+x1nLZRK/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m6ezpdyj5m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HiFis/jbl.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C+x1nLZRK/o="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/jbl.png",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\jbl.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "382453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C+x1nLZRK/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cuA/4NRaZiD9x1hbuNCFotlDhYzaQ2l9C+x1nLZRK/o="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/lg.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\lg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/lg.vw6bugcgpr.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\lg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw6bugcgpr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HiFis/lg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v9WAs8UpAlZH60OD0/GtoJNSGEXyVssZEmvJ3ORHQxk="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/samsung.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\samsung.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xd2naYrzwJ8agz9fPAib2zHmSZ+7wyhwRXWyRDXsyrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xd2naYrzwJ8agz9fPAib2zHmSZ+7wyhwRXWyRDXsyrE="
+        }
+      ]
+    },
+    {
+      "Route": "images/HiFis/samsung.xfup3d8r9n.jpg",
+      "AssetFile": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiApp\\HiFiApp.Api\\wwwroot\\images\\HiFis\\samsung.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xd2naYrzwJ8agz9fPAib2zHmSZ+7wyhwRXWyRDXsyrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:22:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xfup3d8r9n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HiFis/samsung.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xd2naYrzwJ8agz9fPAib2zHmSZ+7wyhwRXWyRDXsyrE="
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,15 @@
+﻿@model LoginViewModel
+<h2>Giriş Yap</h2>
+<form asp-action="Login" method="post">
+    <label>Kullanıcı Adı</label>
+    <input asp-for="UserName" class="form-control" />
+
+    <label>Şifre</label>
+    <input asp-for="Password" type="password" class="form-control" />
+
+    <label>
+        <input asp-for="RememberMe" /> Beni Hatırla
+    </label>
+
+    <button type="submit" class="btn btn-primary mt-3">Giriş Yap</button>
+</form>

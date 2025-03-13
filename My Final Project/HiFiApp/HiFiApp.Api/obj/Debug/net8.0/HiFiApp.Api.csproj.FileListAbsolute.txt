@@ -654,3 +654,6 @@ C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Api\ob
 C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Api\obj\Debug\net8.0\HiFiApp..D5C64A95.Up2Date
 C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Api\obj\Debug\net8.0\HiFiApp.Api.genruntimeconfig.cache
 C:\Users\alica\OneDrive\Masaüstü\Son Orjinal Hali Yedek\HiFiApp\HiFiApp.Api\obj\Debug\net8.0\ref\HiFiApp.Api.dll
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Api\bin\Debug\net8.0\HiFiApp.Api.staticwebassets.endpoints.json
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\alica\OneDrive\Belgeler\GitHub\My-Projects\My Final Project\HiFiApp\HiFiApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.HiFiApp.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

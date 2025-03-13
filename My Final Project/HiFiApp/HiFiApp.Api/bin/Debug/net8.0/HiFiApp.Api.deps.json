@@ -1088,12 +1088,18 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.6"
         },
         "runtime": {
-          "HiFiApp.Data.dll": {}
+          "HiFiApp.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "HiFiApp.Entity/1.0.0": {
         "runtime": {
-          "HiFiApp.Entity.dll": {}
+          "HiFiApp.Entity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "HiFiApp.Service/1.0.0": {
@@ -1102,12 +1108,18 @@
           "HiFiApp.Shared": "1.0.0"
         },
         "runtime": {
-          "HiFiApp.Service.dll": {}
+          "HiFiApp.Service.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "HiFiApp.Shared/1.0.0": {
         "runtime": {
-          "HiFiApp.Shared.dll": {}
+          "HiFiApp.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HiFiAppClient.bundle.scp.css",
-      "PackagePath": "staticwebassets\\HiFiAppClient.bundle.scp.css"
+      "PackagePath": "staticwebassets\\HiFiAppClient.xzfeljv4de.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\admin\\dist\\css\\adminlte.css",
@@ -8695,6 +8695,10 @@
     {
       "Id": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\My-Projects\\My Final Project\\HiFiAppClient\\wwwroot\\ui\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\ui\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HiFiAppClient.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HiFiAppClient.Microsoft.AspNetCore.StaticWebAssets.props",

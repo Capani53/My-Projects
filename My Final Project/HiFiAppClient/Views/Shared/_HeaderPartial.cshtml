@@ -1,7 +1,7 @@
 ﻿    <!-- Header Section Begin -->
 <header class="header">
     <div class="container-fluid">
-        <div class="row">            
+        <div class="row">
             <div class="col-xl-5 col-lg-5">
                 <nav class="header__menu">
                     <ul>
@@ -19,8 +19,18 @@
             <div class="col-xl-5 col-lg-5">
                 <div class="header__right">
                     <div class="header__right__auth">
-                        <a href="#">Giriş Yap</a>
-                        <a href="#">Kayıt Ol</a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <span>Hoşgeldin, @User.Identity.Name!</span>
+                            <form asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-link">Çıkış Yap</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login">Giriş Yap</a>
+                            <a asp-controller="Account" asp-action="Register">Kayıt Ol</a>
+                        }
                     </div>
                     <a class="btn btn-link btn-sm" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin Panel</a>
                     <ul class="header__right__widget">
@@ -46,4 +56,3 @@
         </div>
     </div>
 </header>
-<!-- Header Section End -->

@@ -1,0 +1,24 @@
+﻿@model RegisterViewModel
+
+<h2>Kayıt Ol</h2>
+<form asp-action="Register" method="post">
+    <label>İsim</label>
+    <input asp-for="FirstName" class="form-control" />
+
+    <label>Soyisim</label>
+    <input asp-for="LastName" class="form-control" />
+
+    <label>Kullanıcı Adı</label>
+    <input asp-for="UserName" class="form-control" />
+
+    <label>Email</label>
+    <input asp-for="Email" class="form-control" />
+
+    <label>Şifre</label>
+    <input asp-for="Password" type="password" class="form-control" />
+
+    <label>Şifre Tekrar</label>
+    <input asp-for="ConfirmPassword" type="password" class="form-control" />
+
+    <button type="submit" class="btn btn-primary mt-3">Kayıt Ol</button>
+</form>
