@@ -1,1 +1,13 @@
-﻿
+﻿<script src="~/lib/jquery/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+namespace HiFiAppClient.Models
+{
+    public class ApplicationUser : IdentityUser
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    }
+}

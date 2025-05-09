@@ -24688,13 +24688,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HiFiAppClient.xzfeljv4de.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fZkvsBiMJgISEjB\u002ByIVBTYqL6vs\u002Bj/A5TIo6N3weB5o="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fZkvsBiMJgISEjB\u002ByIVBTYqL6vs\u002Bj/A5TIo6N3weB5o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 11:08:59 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fZkvsBiMJgISEjB\u002ByIVBTYqL6vs\u002Bj/A5TIo6N3weB5o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 20:12:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HiFiAppClient/HiFiAppClient.xzfeljv4de.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HiFiAppClient.xzfeljv4de.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xzfeljv4de"},{"Name":"integrity","Value":"sha256-fZkvsBiMJgISEjB\u002ByIVBTYqL6vs\u002Bj/A5TIo6N3weB5o="},{"Name":"label","Value":"_content/HiFiAppClient/HiFiAppClient.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fZkvsBiMJgISEjB\u002ByIVBTYqL6vs\u002Bj/A5TIo6N3weB5o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 11:08:59 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fZkvsBiMJgISEjB\u002ByIVBTYqL6vs\u002Bj/A5TIo6N3weB5o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 20:12:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HiFiAppClient/ui/css/bootstrap.min.1a8vupj5hk.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ui\css\bootstrap.min.css'))</AssetFile>

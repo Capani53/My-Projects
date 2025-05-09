@@ -11,14 +11,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HiFiAppClient.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250313124011_Initial")]
+    [Migration("20250328112012_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "8.0.8");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.14");
 
             modelBuilder.Entity("HiFiAppClient.Data.AppUser", b =>
                 {

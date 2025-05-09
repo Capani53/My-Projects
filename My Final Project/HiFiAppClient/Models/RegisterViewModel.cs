@@ -1,30 +1,32 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace HiFiAppClient.Models
 {
-    public class RegisterViewModel
+    namespace HiFiAppClient.Models.ViewModels
     {
-        [Required]
-        public string FirstName { get; set; }
+        public class RegisterViewModel
+        {
+            [Required(ErrorMessage = "First name is required")]
+            [Display(Name = "First Name")]
+            public string FirstName { get; set; }
 
-        [Required]
-        public string LastName { get; set; }
+            [Required(ErrorMessage = "Last name is required")]
+            [Display(Name = "Last Name")]
+            public string LastName { get; set; }
 
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; }
+            [Required(ErrorMessage = "Email is required")]
+            [EmailAddress(ErrorMessage = "Invalid email address")]
+            public string Email { get; set; }
 
-        [Required]
-        public string UserName { get; set; }
+            [Required(ErrorMessage = "Password is required")]
+            [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
+            [DataType(DataType.Password)]
+            public string Password { get; set; }
 
-        [Required]
-        [DataType(DataType.Password)]
-        public string Password { get; set; }
-
-        [DataType(DataType.Password)]
-        [Compare("Password", ErrorMessage = "Şifreler eşleşmiyor.")]
-        public string ConfirmPassword { get; set; }
+            [DataType(DataType.Password)]
+            [Display(Name = "Confirm password")]
+            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            public string ConfirmPassword { get; set; }
+        }
     }
 }

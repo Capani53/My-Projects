@@ -1,4 +1,5 @@
 using HiFiAppClient.Data;
+using HiFiAppClient.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -27,6 +28,8 @@ builder.Services.ConfigureApplicationCookie(options =>
         SameSite = SameSiteMode.Strict
     };
 });
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddAuthentication();
 
