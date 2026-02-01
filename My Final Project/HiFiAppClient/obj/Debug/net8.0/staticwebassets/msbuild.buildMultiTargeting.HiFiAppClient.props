@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\HiFiAppClient.props" />
-</Project>

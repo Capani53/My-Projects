@@ -1,0 +1,58 @@
+﻿<header class="header">
+    <div class="container-fluid">
+        <div class="row">            
+            <div class="col-xl-5 col-lg-5">
+                <nav class="header__menu">
+                    <ul>
+                        @await Html.PartialAsync("_TopMenuPartial")
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-xl-2 col-lg-2">
+                <div class="header__logo">
+                    <a asp-controller="Home" asp-action="Index">
+                        <img src="~/ui/img/logo.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5">
+                <div class="header__right">
+                    <div class="header__right">
+                        <div class="header__right__auth">
+                            @if (User.Identity?.IsAuthenticated ?? false)
+                            {
+                                <span>Hoşgeldin, @User.Identity.Name!</span>
+                                <form asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+                                    <button type="submit" class="btn btn-link">Çıkış Yap</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <a asp-controller="Account" asp-action="Login" class="btn btn-primary">Giriş Yap</a>
+                                <a asp-controller="Account" asp-action="Register" class="btn btn-secondary">Kayıt Ol</a>
+                            }
+                        </div>
+                    <a class="btn btn-link btn-sm" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin Panel</a>
+                    <ul class="header__right__widget">
+                        <li><span class="icon_search search-switch"></span></li>
+                        <li>
+                            <a href="#">
+                                <span class="icon_heart_alt"></span>
+                                <div class="tip">2</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Cart" asp-action="Index">
+                                <span class="icon_bag_alt"></span>
+                                <div class="tip"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="canvas__open">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+</header>
