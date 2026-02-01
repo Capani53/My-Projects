@@ -4911,11 +4911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Api\\HiFiApp.Api.csproj",
+      "projectUniqueName": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Api\\HiFiApp.Api.csproj",
       "projectName": "HiFiApp.Api",
-      "projectPath": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Api\\HiFiApp.Api.csproj",
+      "projectPath": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Api\\HiFiApp.Api.csproj",
       "packagesPath": "C:\\Users\\alica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Api\\obj\\",
+      "outputPath": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4936,8 +4936,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj": {
-              "projectPath": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj"
+            "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj": {
+              "projectPath": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj"
             }
           }
         }

@@ -43,3 +43,15 @@ C:\Users\alica\.gemini\antigravity\scratch\My Final Project 2\HiFiApp\HiFiApp.Sh
 C:\Users\alica\.gemini\antigravity\scratch\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\refint\HiFiApp.Shared.dll
 C:\Users\alica\.gemini\antigravity\scratch\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.pdb
 C:\Users\alica\.gemini\antigravity\scratch\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\ref\HiFiApp.Shared.dll
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\bin\Debug\net8.0\HiFiApp.Shared.deps.json
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\bin\Debug\net8.0\HiFiApp.Shared.dll
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\bin\Debug\net8.0\HiFiApp.Shared.pdb
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.AssemblyInfoInputs.cache
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.AssemblyInfo.cs
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.sourcelink.json
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.dll
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\refint\HiFiApp.Shared.dll
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\HiFiApp.Shared.pdb
+C:\Users\alica\Documents\GitHub\My-Projects\My Final Project 2\HiFiApp\HiFiApp.Shared\obj\Debug\net8.0\ref\HiFiApp.Shared.dll

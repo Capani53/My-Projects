@@ -3269,11 +3269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
+      "projectUniqueName": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
       "projectName": "HiFiApp.Service",
-      "projectPath": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
+      "projectPath": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\HiFiApp.Service.csproj",
       "packagesPath": "C:\\Users\\alica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\obj\\",
+      "outputPath": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3294,11 +3294,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Data\\HiFiApp.Data.csproj": {
-              "projectPath": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Data\\HiFiApp.Data.csproj"
+            "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Data\\HiFiApp.Data.csproj": {
+              "projectPath": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Data\\HiFiApp.Data.csproj"
             },
-            "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\alica\\.gemini\\antigravity\\scratch\\My Final Project 2\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj"
+            "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\alica\\Documents\\GitHub\\My-Projects\\My Final Project 2\\HiFiApp\\HiFiApp.Shared\\HiFiApp.Shared.csproj"
             }
           }
         }
